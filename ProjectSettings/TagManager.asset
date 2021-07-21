@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags: []
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - ground
+  - enemy
+  - player
+  - door
+  - switch
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: tree bg
+    uniqueID: 655720829
+    locked: 0
+  - name: door
+    uniqueID: 117694551
+    locked: 0
+  - name: ground
+    uniqueID: 3061803105
+    locked: 0
+  - name: tree fg
+    uniqueID: 950278769
+    locked: 0
+  - name: ground2
+    uniqueID: 1419770163
+    locked: 0
+  - name: level_items
+    uniqueID: 3375619777
+    locked: 0
+  - name: enemy
+    uniqueID: 2873349717
+    locked: 0
+  - name: player
+    uniqueID: 4087628571
+    locked: 0
+  - name: effects
+    uniqueID: 3707736969
+    locked: 0
