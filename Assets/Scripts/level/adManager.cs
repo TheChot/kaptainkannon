@@ -7,10 +7,11 @@ using System;
 public class adManager : MonoBehaviour
 {
     // "ca-app-pub-3940256099942544/1033173712"; // test id
-    // "ca-app-pub-1419825942572265/3689203384";// updated app id
+    // "ca-app-pub-1419825942572265/3689203384";// updated app id 
     public string interstitialID = "ca-app-pub-3940256099942544/1033173712"; // test od
     InterstitialAd interstitial;
     public bool adClosed;
+    bool adFailedToLoad;
     //  
 
     // Start is called before the first frame update
@@ -54,9 +55,17 @@ public class adManager : MonoBehaviour
 
     public void displayInterstitial()
     {
-        if (interstitial.IsLoaded()) {
-            interstitial.Show();
+        if(!adFailedToLoad)
+        {
+            if (interstitial.IsLoaded()) 
+            {
+                interstitial.Show();
+            }
+        } else 
+        {
+            levelManager.instance.closeLevel();
         }
+        
     }
 
     public void HandleOnAdClosed(object sender, EventArgs args)
@@ -69,7 +78,9 @@ public class adManager : MonoBehaviour
     public void HandleOnAdFailedToLoad(object sender, AdFailedToLoadEventArgs args)
     {
         // MonoBehaviour.print("HandleFailedToReceiveAd event received with message: " + args.Message);
-        adClosed = true;
+        // adClosed = true;
+        adFailedToLoad = true;
+        // levelManager.instance.closeLevel();
     }
 
     public void destroyInterStitial()

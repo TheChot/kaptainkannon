@@ -92,10 +92,7 @@ public class platformMoving : MonoBehaviour
         }
     }
 
-    public void activateThePlatform()
-    {
-        activatePlatform = true;
-    }
+    
 
     
 

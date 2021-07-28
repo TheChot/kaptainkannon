@@ -12,7 +12,9 @@ public class enemyMovement : MonoBehaviour
     Transform floorDetector;
     Transform wallDetector;
     bool isFloor;
-    bool isWall;    
+    bool isWall;   
+    public bool isStopped; 
+    Animator anim;
     
 
     // Start is called before the first frame update
@@ -20,7 +22,8 @@ public class enemyMovement : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         floorDetector = transform.GetChild(0);
-        wallDetector = transform.GetChild(1);        
+        wallDetector = transform.GetChild(1);    
+        anim = GetComponent<Animator>();    
     }
 
     // Update is called once per frame
@@ -39,13 +42,22 @@ public class enemyMovement : MonoBehaviour
             moveLeft = !moveLeft;
         }
         
-        if(!moveLeft)
+        if(!isStopped)
         {
-            rb.velocity = new Vector2(moveSpeed, rb.velocity.y);
-        } else 
+            anim.SetBool("isMoving", true);
+            if(!moveLeft)
+            {
+                rb.velocity = new Vector2(moveSpeed, rb.velocity.y);
+            } else 
+            {
+                rb.velocity = new Vector2(-moveSpeed, rb.velocity.y);
+            }
+        } else
         {
-            rb.velocity = new Vector2(-moveSpeed, rb.velocity.y);
+            rb.velocity = new Vector2(0, rb.velocity.y);
+            anim.SetBool("isMoving", false);
         }
+        
 
         if (rb.velocity.x < 0)
         {

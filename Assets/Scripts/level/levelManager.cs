@@ -139,6 +139,9 @@ public class levelManager : MonoBehaviour
         {
             Destroy(cm.gameObject);
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        }else
+        {
+            SceneManager.LoadScene(0);
         }
         
     }

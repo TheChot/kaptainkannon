@@ -100,6 +100,7 @@ MonoBehaviour:
   adMan: {fileID: 0}
   adCount: 0
   isRestarting: 0
+  deadLimit: 0
 --- !u!1 &4174937232421664300
 GameObject:
   m_ObjectHideFlags: 0
@@ -349,5 +350,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e5be03a94eb92f44ca7658c4aa1f5fbf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  interstitialID: ca-app-pub-3940256099942544/1033173712
+  interstitialID: ca-app-pub-1419825942572265/3689203384
   adClosed: 0
