@@ -27,6 +27,9 @@ public class enemyShooting : MonoBehaviour
     public float shootDelayTime;
     public float shootBulletDelay;
     int bulletCount;
+    public float nextAttackCount;
+    float nextReset;
+    bool startNextCount;
 
     // Start is called before the first frame update
     void Start()
@@ -35,6 +38,7 @@ public class enemyShooting : MonoBehaviour
         anim = GetComponent<Animator>();
         eM = GetComponent<enemyMovement>();
         delayReset = delayTime;
+        nextReset = nextAttackCount;
     }
 
     // Update is called once per frame
@@ -57,7 +61,9 @@ public class enemyShooting : MonoBehaviour
                 canAttack = false;
                 StartCoroutine(attackPlayer());                
                 
-            }            
+            }   
+
+                   
         }
 
         if(!canAttack && hasAttacked)
@@ -67,12 +73,17 @@ public class enemyShooting : MonoBehaviour
 
         if(delayTime < 0)
         {
-            // eM.moveLeft = !eM.moveLeft;
-            canAttack = true;
             hasAttacked = false;
             eM.isStopped = false;
             delayTime = delayReset;
-        }    
+        }
+
+        if(nextAttackCount < 0)
+        {
+            canAttack = true;
+            startNextCount = false;
+            nextAttackCount = nextReset;
+        }      
 
     }
 

@@ -12,7 +12,7 @@ public class saw : MonoBehaviour
 
     public float moveSpeed;
     public int damageGive;
-    public bool changeDir; //move left or down
+    public bool moveLeft; //move left or down
     public bool moveHorizontal;
 
     public float moveDistance;
@@ -26,7 +26,7 @@ public class saw : MonoBehaviour
         col.enabled = false;
         if(moveHorizontal)
         {        
-            if(changeDir)
+            if(moveLeft)
             {
                 minDis = transform.position.x - moveDistance;
                 maxDis = transform.position.x;
@@ -38,7 +38,7 @@ public class saw : MonoBehaviour
         } 
         else
         {
-            if(changeDir)
+            if(moveLeft)
             {
                 minDis = transform.position.y - moveDistance;
                 maxDis = transform.position.y;
@@ -63,10 +63,10 @@ public class saw : MonoBehaviour
                 {
                     if(transform.position.x < minDis || transform.position.x > maxDis)
                     {
-                        changeDir = !changeDir;
+                        moveLeft = !moveLeft;
                     }
 
-                    if(!changeDir)
+                    if(!moveLeft)
                     {
                         // rb.velocity = new Vector2(moveSpeed, rb.velocity.y);
                         transform.position += (new Vector3(moveSpeed, 0, 0) * Time.fixedDeltaTime);
@@ -80,10 +80,10 @@ public class saw : MonoBehaviour
                 {
                     if(transform.position.y < minDis || transform.position.y > maxDis)
                     {
-                        changeDir = !changeDir;
+                        moveLeft = !moveLeft;
                     }
 
-                    if(!changeDir)
+                    if(!moveLeft)
                     {
                         transform.position += (new Vector3(0, moveSpeed, 0) * Time.fixedDeltaTime);
                     } else 

@@ -6,13 +6,13 @@ public class enemyFlying : MonoBehaviour
 {
     Rigidbody2D rb;
     public float moveSpeed = 2f;
-    public bool changeDir; //move left or down
+    public bool moveLeft; //move left or down
     public bool moveHorizontal;
 
     public float moveDistance;
     float maxDis, minDis;    
-    // public bool isFlying;
     
+    public bool isStopped;
 
     // Start is called before the first frame update
     void Start()
@@ -24,7 +24,7 @@ public class enemyFlying : MonoBehaviour
         {
 
         
-            if(changeDir)
+            if(moveLeft)
             {
                 minDis = transform.position.x - moveDistance;
                 maxDis = transform.position.x;
@@ -36,7 +36,7 @@ public class enemyFlying : MonoBehaviour
         } 
         else
         {
-            if(changeDir)
+            if(moveLeft)
             {
                 minDis = transform.position.y - moveDistance;
                 maxDis = transform.position.y;
@@ -61,30 +61,43 @@ public class enemyFlying : MonoBehaviour
         {
             if(transform.position.x < minDis || transform.position.x > maxDis)
             {
-                changeDir = !changeDir;
+                moveLeft = !moveLeft;
             }
-
-            if(!changeDir)
+            
+            if(!isStopped)
             {
-                rb.velocity = new Vector2(moveSpeed, rb.velocity.y);
+                if(!moveLeft)
+                {
+                    rb.velocity = new Vector2(moveSpeed, rb.velocity.y);
+                } else 
+                {
+                    rb.velocity = new Vector2(-moveSpeed, rb.velocity.y);
+                }
             } else 
             {
-                rb.velocity = new Vector2(-moveSpeed, rb.velocity.y);
+                rb.velocity = new Vector2(0, 0);
             }
+            
         } 
         else 
         {
             if(transform.position.y < minDis || transform.position.y > maxDis)
             {
-                changeDir = !changeDir;
+                moveLeft = !moveLeft;
             }
 
-            if(!changeDir)
+            if(!isStopped)
             {
-                rb.velocity = new Vector2(rb.velocity.x, moveSpeed);
+                if(!moveLeft)
+                {
+                    rb.velocity = new Vector2(rb.velocity.x, moveSpeed);
+                } else 
+                {
+                    rb.velocity = new Vector2(rb.velocity.x, -moveSpeed);
+                }
             } else 
             {
-                rb.velocity = new Vector2(rb.velocity.x, -moveSpeed);
+                rb.velocity = new Vector2(0, 0);
             }
         }
 
