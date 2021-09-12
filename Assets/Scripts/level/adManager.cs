@@ -1,8 +1,11 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
+using GoogleMobileAds;
 using GoogleMobileAds.Api;
-using System;
+using GoogleMobileAds.Common;
 
 public class adManager : MonoBehaviour
 {
@@ -55,16 +58,20 @@ public class adManager : MonoBehaviour
 
     public void displayInterstitial()
     {
-        if(!adFailedToLoad)
+        if (interstitial.IsLoaded()) 
         {
-            if (interstitial.IsLoaded()) 
-            {
-                interstitial.Show();
-            }
-        } else 
-        {
-            levelManager.instance.closeLevel();
+            interstitial.Show();
         }
+        // if(!adFailedToLoad)
+        // {
+        //     if (interstitial.IsLoaded()) 
+        //     {
+        //         interstitial.Show();
+        //     }
+        // } else 
+        // {
+        //     levelManager.instance.closeLevel();
+        // }
         
     }
 
@@ -77,7 +84,9 @@ public class adManager : MonoBehaviour
 
     public void HandleOnAdFailedToLoad(object sender, AdFailedToLoadEventArgs args)
     {
+        // string msg = args.AdError.GetMessage();
         // MonoBehaviour.print("HandleFailedToReceiveAd event received with message: " + args.Message);
+        Debug.Log("HandleFailedToReceiveAd event received with message: " + args.Message);
         // adClosed = true;
         adFailedToLoad = true;
         // levelManager.instance.closeLevel();

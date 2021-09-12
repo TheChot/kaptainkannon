@@ -1,0 +1,995 @@
+fileFormatVersion: 2
+guid: 8ed6b4e098adea94cbe0665d07eb35ff
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4825576236232610373
+    second: greenZoneTiles1_0
+  - first:
+      213: -3402690229476058486
+    second: greenZoneTiles1_1
+  - first:
+      213: -5096974311666501915
+    second: greenZoneTiles1_2
+  - first:
+      213: 5929141496392265690
+    second: greenZoneTiles1_3
+  - first:
+      213: 8184316342642432767
+    second: greenZoneTiles1_4
+  - first:
+      213: 1255524884856634730
+    second: greenZoneTiles1_5
+  - first:
+      213: 5598379282282267721
+    second: greenZoneTiles1_6
+  - first:
+      213: -7776841009587458627
+    second: greenZoneTiles1_7
+  - first:
+      213: 1299512623321639963
+    second: greenZoneTiles1_8
+  - first:
+      213: -7143135966092355325
+    second: greenZoneTiles1_9
+  - first:
+      213: -7262768888628116718
+    second: greenZoneTiles1_10
+  - first:
+      213: -8069911703809614059
+    second: greenZoneTiles1_11
+  - first:
+      213: -5609383092806377717
+    second: greenZoneTiles1_12
+  - first:
+      213: -6606141244117218637
+    second: greenZoneTiles1_13
+  - first:
+      213: -3841267902177054632
+    second: greenZoneTiles1_14
+  - first:
+      213: -5616012870757412921
+    second: greenZoneTiles1_15
+  - first:
+      213: -5150352928278945234
+    second: greenZoneTiles1_16
+  - first:
+      213: -6171442802835094359
+    second: greenZoneTiles1_17
+  - first:
+      213: -6519887817033162085
+    second: greenZoneTiles1_18
+  - first:
+      213: -5478676437220807275
+    second: greenZoneTiles1_19
+  - first:
+      213: 749853658295248868
+    second: greenZoneTiles1_20
+  - first:
+      213: -7046101549265376432
+    second: greenZoneTiles1_21
+  - first:
+      213: -1307191986538926144
+    second: greenZoneTiles1_22
+  - first:
+      213: -248055698574848257
+    second: greenZoneTiles1_23
+  - first:
+      213: -8688172087745275577
+    second: greenZoneTiles1_24
+  - first:
+      213: -8310967919903239006
+    second: greenZoneTiles1_25
+  - first:
+      213: 9178229916495304493
+    second: greenZoneTiles1_26
+  - first:
+      213: 7371184433328799515
+    second: greenZoneTiles1_27
+  - first:
+      213: -6779033986649730256
+    second: greenZoneTiles1_28
+  - first:
+      213: -3666001326373836679
+    second: greenZoneTiles1_29
+  - first:
+      213: 4623477197967794600
+    second: greenZoneTiles1_30
+  - first:
+      213: 5187661567684383829
+    second: greenZoneTiles1_31
+  - first:
+      213: 4937107246340503176
+    second: greenZoneTiles1_32
+  - first:
+      213: -7073623766958418011
+    second: greenZoneTiles1_33
+  - first:
+      213: 7710505763252611816
+    second: greenZoneTiles1_34
+  - first:
+      213: -4901007148721186949
+    second: greenZoneTiles1_35
+  - first:
+      213: 4699090406629395081
+    second: greenZoneTiles1_36
+  - first:
+      213: -3982868691906364632
+    second: greenZoneTiles1_37
+  - first:
+      213: 2528056928651249454
+    second: greenZoneTiles1_38
+  - first:
+      213: -6749895989491687984
+    second: greenZoneTiles1_39
+  - first:
+      213: 2835857534559798316
+    second: greenZoneTiles1_40
+  - first:
+      213: 8345941974504245620
+    second: greenZoneTiles1_41
+  - first:
+      213: -7851275030722946499
+    second: greenZoneTiles1_42
+  - first:
+      213: 7835799253281199270
+    second: greenZoneTiles1_43
+  - first:
+      213: -7575073132893909470
+    second: greenZoneTiles1_44
+  - first:
+      213: -3489056677604728844
+    second: greenZoneTiles1_45
+  - first:
+      213: 8104443460195166400
+    second: greenZoneTiles1_46
+  - first:
+      213: -874983488618473100
+    second: greenZoneTiles1_47
+  - first:
+      213: 6825109400002432880
+    second: greenZoneTiles1_48
+  - first:
+      213: 3793251154653805782
+    second: greenZoneTiles1_49
+  - first:
+      213: -6219851633884520332
+    second: greenZoneTiles1_50
+  - first:
+      213: 1234152279498103013
+    second: greenZoneTiles1_51
+  - first:
+      213: -98049346532822184
+    second: greenZoneTiles1_52
+  - first:
+      213: -5738123028759804255
+    second: greenZoneTiles1_53
+  - first:
+      213: 3660336143163406277
+    second: greenZoneTiles1_54
+  - first:
+      213: -4495044170085782894
+    second: greenZoneTiles1_55
+  - first:
+      213: 8884215320153252937
+    second: greenZoneTiles1_56
+  - first:
+      213: -7625493202932878593
+    second: greenZoneTiles1_57
+  - first:
+      213: 6810759200894425417
+    second: greenZoneTiles1_58
+  - first:
+      213: -5148227142190196866
+    second: greenZoneTiles1_59
+  - first:
+      213: 6820413046103954342
+    second: greenZoneTiles1_60
+  - first:
+      213: 8846877497941130073
+    second: greenZoneTiles1_61
+  - first:
+      213: 8267284785182547131
+    second: greenZoneTiles1_62
+  - first:
+      213: 3610773092522729451
+    second: greenZoneTiles1_63
+  - first:
+      213: 9154907077286438819
+    second: greenZoneTiles1_64
+  - first:
+      213: 2163431394122024983
+    second: greenZoneTiles1_65
+  - first:
+      213: -6419005981331962426
+    second: greenZoneTiles1_66
+  - first:
+      213: -1765132667159357192
+    second: greenZoneTiles1_67
+  - first:
+      213: 4028717213809300282
+    second: greenZoneTiles1_68
+  - first:
+      213: 1325462367560433009
+    second: greenZoneTiles1_69
+  - first:
+      213: -7473874074595746332
+    second: greenZoneTiles1_70
+  - first:
+      213: 6888497632690456241
+    second: greenZoneTiles1_71
+  - first:
+      213: 5964303729157536798
+    second: greenZoneTiles1_72
+  - first:
+      213: 3067556914483630787
+    second: greenZoneTiles1_73
+  - first:
+      213: -5296154039485671390
+    second: greenZoneTiles1_74
+  - first:
+      213: 838571123509740285
+    second: greenZoneTiles1_75
+  - first:
+      213: -2630327626624052731
+    second: greenZoneTiles1_76
+  - first:
+      213: -4675450043924513935
+    second: greenZoneTiles1_77
+  - first:
+      213: -2344726064968571228
+    second: greenZoneTiles1_78
+  - first:
+      213: 5792944315637287684
+    second: greenZoneTiles1_79
+  - first:
+      213: -360583182224527430
+    second: greenZoneTiles1_80
+  - first:
+      213: 7884335849980489580
+    second: greenZoneTiles1_81
+  - first:
+      213: 374127028746500268
+    second: greenZoneTiles1_82
+  - first:
+      213: 905410058002008402
+    second: greenZoneTiles1_83
+  - first:
+      213: 6687493136412628613
+    second: greenZoneTiles1_84
+  - first:
+      213: -1413896688745584226
+    second: greenZoneTiles1_85
+  - first:
+      213: 3881088628011375826
+    second: greenZoneTiles1_86
+  - first:
+      213: -6336709635454050879
+    second: greenZoneTiles1_87
+  - first:
+      213: 1611036965686672220
+    second: greenZoneTiles1_88
+  - first:
+      213: 435855025964949057
+    second: greenZoneTiles1_89
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 512
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: greenZoneTiles1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3074
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54216351504e7f240800000000000000
+      internalID: 4825576236232610373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenZoneTiles1_2
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 3074
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e6b3d35ed8e349b0800000000000000
+      internalID: -5096974311666501915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenZoneTiles1_4
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 3074
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffa50ace958849170800000000000000
+      internalID: 8184316342642432767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenZoneTiles1_6
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 3074
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9444756bb4071bd40800000000000000
+      internalID: 5598379282282267721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenZoneTiles1_8
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 3074
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1ce83688dbc80210800000000000000
+      internalID: 1299512623321639963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenZoneTiles1_10
+      rect:
+        serializedVersion: 2
+        x: 5120
+        y: 3074
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2130093fc26753b90800000000000000
+      internalID: -7262768888628116718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenZoneTiles1_12
+      rect:
+        serializedVersion: 2
+        x: 6144
+        y: 3074
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0f91300cc77722b0800000000000000
+      internalID: -5609383092806377717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenZoneTiles1_26
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2050
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d27d09f0b7f9f5f70800000000000000
+      internalID: 9178229916495304493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenZoneTiles1_28
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 2050
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 033517981880ce1a0800000000000000
+      internalID: -6779033986649730256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenZoneTiles1_30
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 2050
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a12dfbe304e92040800000000000000
+      internalID: 4623477197967794600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenZoneTiles1_32
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 2050
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 886f124f1e0248440800000000000000
+      internalID: 4937107246340503176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenZoneTiles1_34
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 2050
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ea2641c328310b60800000000000000
+      internalID: 7710505763252611816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenZoneTiles1_36
+      rect:
+        serializedVersion: 2
+        x: 5120
+        y: 2050
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98a4796f3d5863140800000000000000
+      internalID: 4699090406629395081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenZoneTiles1_38
+      rect:
+        serializedVersion: 2
+        x: 6144
+        y: 2050
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e270934e166751320800000000000000
+      internalID: 2528056928651249454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenZoneTiles1_51
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1026
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e8193a95f6902110800000000000000
+      internalID: 1234152279498103013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenZoneTiles1_53
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1026
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a68849d1871e50b0800000000000000
+      internalID: -5738123028759804255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenZoneTiles1_55
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 1026
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29aa850a4256e91c0800000000000000
+      internalID: -4495044170085782894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenZoneTiles1_57
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 1026
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff2b702655ecc2690800000000000000
+      internalID: -7625493202932878593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenZoneTiles1_59
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 1026
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e779abec0b2dd88b0800000000000000
+      internalID: -5148227142190196866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenZoneTiles1_61
+      rect:
+        serializedVersion: 2
+        x: 5120
+        y: 1026
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95b7d2c263c66ca70800000000000000
+      internalID: 8846877497941130073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenZoneTiles1_63
+      rect:
+        serializedVersion: 2
+        x: 6144
+        y: 1026
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bef1b583ffa0c1230800000000000000
+      internalID: 3610773092522729451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenZoneTiles1_76
+      rect:
+        serializedVersion: 2
+        x: 6144
+        y: 514
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5025d2ca5f23f7bd0800000000000000
+      internalID: -2630327626624052731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenZoneTiles1_77
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17b7bc6e4f67d1fb0800000000000000
+      internalID: -4675450043924513935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenZoneTiles1_79
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 2
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40bcd29a92ca46050800000000000000
+      internalID: 5792944315637287684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenZoneTiles1_81
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 2
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6fe6fbbea9ca6d60800000000000000
+      internalID: 7884335849980489580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenZoneTiles1_83
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 2
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 259864396a9a09c00800000000000000
+      internalID: 905410058002008402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenZoneTiles1_85
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 2
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e99e736e374d06ce0800000000000000
+      internalID: -1413896688745584226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenZoneTiles1_87
+      rect:
+        serializedVersion: 2
+        x: 5120
+        y: 2
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cd57fde82c7f08a0800000000000000
+      internalID: -6336709635454050879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenZoneTiles1_89
+      rect:
+        serializedVersion: 2
+        x: 6144
+        y: 2
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14e953c36d77c0600800000000000000
+      internalID: 435855025964949057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

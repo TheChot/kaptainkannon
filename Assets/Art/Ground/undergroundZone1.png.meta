@@ -1,0 +1,1595 @@
+fileFormatVersion: 2
+guid: 751fbf9a98173664d8be3d822e142a5e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6507490981787402941
+    second: undergroundZone1_0
+  - first:
+      213: -3938410765914025005
+    second: undergroundZone1_1
+  - first:
+      213: 1307131979703434507
+    second: undergroundZone1_2
+  - first:
+      213: 840059069492123583
+    second: undergroundZone1_3
+  - first:
+      213: 1188375608887100748
+    second: undergroundZone1_4
+  - first:
+      213: 6925906881390896398
+    second: undergroundZone1_5
+  - first:
+      213: -4355743248424786579
+    second: undergroundZone1_6
+  - first:
+      213: 2956049176884046432
+    second: undergroundZone1_7
+  - first:
+      213: -3097323387560126270
+    second: undergroundZone1_8
+  - first:
+      213: -4904012430702237202
+    second: undergroundZone1_9
+  - first:
+      213: 3498613976828867474
+    second: undergroundZone1_10
+  - first:
+      213: -8795326715453419649
+    second: undergroundZone1_11
+  - first:
+      213: 8477436124408232097
+    second: undergroundZone1_12
+  - first:
+      213: 8484414315251849593
+    second: undergroundZone1_13
+  - first:
+      213: 6991371658120593105
+    second: undergroundZone1_14
+  - first:
+      213: -4392092903454629960
+    second: undergroundZone1_15
+  - first:
+      213: -6853159886580638038
+    second: undergroundZone1_16
+  - first:
+      213: -3811991976265401760
+    second: undergroundZone1_17
+  - first:
+      213: -6257345126500579065
+    second: undergroundZone1_18
+  - first:
+      213: 8715640026518424780
+    second: undergroundZone1_19
+  - first:
+      213: 3563155242797570914
+    second: undergroundZone1_20
+  - first:
+      213: 2406418282807870153
+    second: undergroundZone1_21
+  - first:
+      213: 250917046621412294
+    second: undergroundZone1_22
+  - first:
+      213: 6339922566238634223
+    second: undergroundZone1_23
+  - first:
+      213: -5334136894850268615
+    second: undergroundZone1_24
+  - first:
+      213: -5765943561753563463
+    second: undergroundZone1_25
+  - first:
+      213: -1547909423577321881
+    second: undergroundZone1_26
+  - first:
+      213: 389977029061550151
+    second: undergroundZone1_27
+  - first:
+      213: -3309180255344881342
+    second: undergroundZone1_28
+  - first:
+      213: -3915467194275415602
+    second: undergroundZone1_29
+  - first:
+      213: -6982532491433818214
+    second: undergroundZone1_30
+  - first:
+      213: 6934937238891820195
+    second: undergroundZone1_31
+  - first:
+      213: -7945805674060147388
+    second: undergroundZone1_32
+  - first:
+      213: 7657442293192909437
+    second: undergroundZone1_33
+  - first:
+      213: -8839032905103284732
+    second: undergroundZone1_34
+  - first:
+      213: -6333247563515664592
+    second: undergroundZone1_35
+  - first:
+      213: 1280526385501747511
+    second: undergroundZone1_36
+  - first:
+      213: 6497380837350393748
+    second: undergroundZone1_37
+  - first:
+      213: 5335637031720856950
+    second: undergroundZone1_38
+  - first:
+      213: 6555829784780615364
+    second: undergroundZone1_39
+  - first:
+      213: 7766212645212072665
+    second: undergroundZone1_40
+  - first:
+      213: -5740373160140096030
+    second: undergroundZone1_41
+  - first:
+      213: -7556660751700069627
+    second: undergroundZone1_42
+  - first:
+      213: -3527851432993440748
+    second: undergroundZone1_43
+  - first:
+      213: 1331041890345026547
+    second: undergroundZone1_44
+  - first:
+      213: -4661220626560147682
+    second: undergroundZone1_45
+  - first:
+      213: -2012036100431288195
+    second: undergroundZone1_46
+  - first:
+      213: -3687896698183044380
+    second: undergroundZone1_47
+  - first:
+      213: -2656830782562893196
+    second: undergroundZone1_48
+  - first:
+      213: -6604706340112300398
+    second: undergroundZone1_49
+  - first:
+      213: 4724784472313492088
+    second: undergroundZone1_50
+  - first:
+      213: 8552475237578849616
+    second: undergroundZone1_51
+  - first:
+      213: 8402954939914233830
+    second: undergroundZone1_52
+  - first:
+      213: 7790492785866444866
+    second: undergroundZone1_53
+  - first:
+      213: -4255716003362335866
+    second: undergroundZone1_54
+  - first:
+      213: 3462864498997893044
+    second: undergroundZone1_55
+  - first:
+      213: -7206762796385044329
+    second: undergroundZone1_56
+  - first:
+      213: 113548372516723008
+    second: undergroundZone1_57
+  - first:
+      213: -7558964648793392464
+    second: undergroundZone1_58
+  - first:
+      213: 6350723618070141151
+    second: undergroundZone1_59
+  - first:
+      213: 8317120746059707290
+    second: undergroundZone1_60
+  - first:
+      213: -4160280641181326144
+    second: undergroundZone1_61
+  - first:
+      213: -5754007624041034280
+    second: undergroundZone1_62
+  - first:
+      213: 875705323914162792
+    second: undergroundZone1_63
+  - first:
+      213: -638551149744790331
+    second: undergroundZone1_64
+  - first:
+      213: 3791478570024589138
+    second: undergroundZone1_65
+  - first:
+      213: 3483338389485101726
+    second: undergroundZone1_66
+  - first:
+      213: 7545044191043138484
+    second: undergroundZone1_67
+  - first:
+      213: -2079276159127768088
+    second: undergroundZone1_68
+  - first:
+      213: 933366307539979804
+    second: undergroundZone1_69
+  - first:
+      213: -8298996596686206026
+    second: undergroundZone1_70
+  - first:
+      213: -4801409066033374937
+    second: undergroundZone1_71
+  - first:
+      213: 5416919476550554740
+    second: undergroundZone1_72
+  - first:
+      213: -7535790010158529033
+    second: undergroundZone1_73
+  - first:
+      213: -7798681035990260208
+    second: undergroundZone1_74
+  - first:
+      213: 8142956270715196840
+    second: undergroundZone1_75
+  - first:
+      213: 2858182848000620749
+    second: undergroundZone1_76
+  - first:
+      213: -5558496714160090570
+    second: undergroundZone1_77
+  - first:
+      213: 425284959048359434
+    second: undergroundZone1_78
+  - first:
+      213: -8904750186820810340
+    second: undergroundZone1_79
+  - first:
+      213: -7135373602584618597
+    second: undergroundZone1_80
+  - first:
+      213: 7824425321647718421
+    second: undergroundZone1_81
+  - first:
+      213: 3705011258040926355
+    second: undergroundZone1_82
+  - first:
+      213: 4837802825150078664
+    second: undergroundZone1_83
+  - first:
+      213: 7352343676658737999
+    second: undergroundZone1_84
+  - first:
+      213: 6558826414745779911
+    second: undergroundZone1_85
+  - first:
+      213: -356188665070169559
+    second: undergroundZone1_86
+  - first:
+      213: -7684094504338904734
+    second: undergroundZone1_87
+  - first:
+      213: -3833224142101676972
+    second: undergroundZone1_88
+  - first:
+      213: -5224345926447461434
+    second: undergroundZone1_89
+  - first:
+      213: -7307851693961294188
+    second: undergroundZone1_90
+  - first:
+      213: 5868205657976801936
+    second: undergroundZone1_91
+  - first:
+      213: 5610709018066479944
+    second: undergroundZone1_92
+  - first:
+      213: 3362357171434724086
+    second: undergroundZone1_93
+  - first:
+      213: -3860608269386788653
+    second: undergroundZone1_94
+  - first:
+      213: 4242863289489239396
+    second: undergroundZone1_95
+  - first:
+      213: 3028253359338412909
+    second: undergroundZone1_96
+  - first:
+      213: 6158693220710391618
+    second: undergroundZone1_97
+  - first:
+      213: -6039069395517797666
+    second: undergroundZone1_98
+  - first:
+      213: -4553791587244010024
+    second: undergroundZone1_99
+  - first:
+      213: 192008816936609668
+    second: undergroundZone1_100
+  - first:
+      213: -3143221305100790136
+    second: undergroundZone1_101
+  - first:
+      213: -7470886151349430285
+    second: undergroundZone1_102
+  - first:
+      213: 5553720491732129202
+    second: undergroundZone1_103
+  - first:
+      213: -1470820235683688537
+    second: undergroundZone1_104
+  - first:
+      213: -3720472826195767602
+    second: undergroundZone1_105
+  - first:
+      213: -2694845368874244756
+    second: undergroundZone1_106
+  - first:
+      213: 6451287231865794751
+    second: undergroundZone1_107
+  - first:
+      213: 318101243463320560
+    second: undergroundZone1_108
+  - first:
+      213: 4031104445649374750
+    second: undergroundZone1_109
+  - first:
+      213: 477596905628381753
+    second: undergroundZone1_110
+  - first:
+      213: -8499351563818044843
+    second: undergroundZone1_111
+  - first:
+      213: -1564353081247863106
+    second: undergroundZone1_112
+  - first:
+      213: 8001190345010149094
+    second: undergroundZone1_113
+  - first:
+      213: 880338233786368866
+    second: undergroundZone1_114
+  - first:
+      213: -3377877204684596131
+    second: undergroundZone1_115
+  - first:
+      213: -3178084689781370104
+    second: undergroundZone1_116
+  - first:
+      213: 7210552395093368829
+    second: undergroundZone1_117
+  - first:
+      213: 3057293001351793533
+    second: undergroundZone1_118
+  - first:
+      213: 105706446089097101
+    second: undergroundZone1_119
+  - first:
+      213: -3590465055388795498
+    second: undergroundZone1_120
+  - first:
+      213: -5934617210515771257
+    second: undergroundZone1_121
+  - first:
+      213: 9129486606073731737
+    second: undergroundZone1_122
+  - first:
+      213: 2788495764227228494
+    second: undergroundZone1_123
+  - first:
+      213: 8153633387223050277
+    second: undergroundZone1_124
+  - first:
+      213: -1626280102640804455
+    second: undergroundZone1_125
+  - first:
+      213: -8709988092683445642
+    second: undergroundZone1_126
+  - first:
+      213: -6892928643003027420
+    second: undergroundZone1_127
+  - first:
+      213: -5363872016073987305
+    second: undergroundZone1_128
+  - first:
+      213: -708722149848031226
+    second: undergroundZone1_129
+  - first:
+      213: 5219155638853666321
+    second: undergroundZone1_130
+  - first:
+      213: -8116605337509906343
+    second: undergroundZone1_131
+  - first:
+      213: 5408803975688054606
+    second: undergroundZone1_132
+  - first:
+      213: -3454740957224354195
+    second: undergroundZone1_133
+  - first:
+      213: 6268849245304634532
+    second: undergroundZone1_134
+  - first:
+      213: -6667501184311791066
+    second: undergroundZone1_135
+  - first:
+      213: -4466513696547050668
+    second: undergroundZone1_136
+  - first:
+      213: -1209572701211698184
+    second: undergroundZone1_137
+  - first:
+      213: 4538913433814549010
+    second: undergroundZone1_138
+  - first:
+      213: 5207330238333202269
+    second: undergroundZone1_139
+  - first:
+      213: 6110654316853408735
+    second: undergroundZone1_140
+  - first:
+      213: -1186113206418761981
+    second: undergroundZone1_141
+  - first:
+      213: -2789180425968766434
+    second: undergroundZone1_142
+  - first:
+      213: -788316345964866258
+    second: undergroundZone1_143
+  - first:
+      213: 7532612939864969234
+    second: undergroundZone1_144
+  - first:
+      213: 8237937670994495028
+    second: undergroundZone1_145
+  - first:
+      213: -3198034457874663856
+    second: undergroundZone1_146
+  - first:
+      213: -4477919229203214085
+    second: undergroundZone1_147
+  - first:
+      213: -411969138436198829
+    second: undergroundZone1_148
+  - first:
+      213: -5867064490334020135
+    second: undergroundZone1_149
+  - first:
+      213: -2871218625668111475
+    second: undergroundZone1_150
+  - first:
+      213: -8150352434575237058
+    second: undergroundZone1_151
+  - first:
+      213: 1359211622826954737
+    second: undergroundZone1_152
+  - first:
+      213: -1071804079580391447
+    second: undergroundZone1_153
+  - first:
+      213: 7888396136179561582
+    second: undergroundZone1_154
+  - first:
+      213: -2670979149380616823
+    second: undergroundZone1_155
+  - first:
+      213: 5891159508274645326
+    second: undergroundZone1_156
+  - first:
+      213: 3954525705520573017
+    second: undergroundZone1_157
+  - first:
+      213: -7130883754237264608
+    second: undergroundZone1_158
+  - first:
+      213: 8150748713422191766
+    second: undergroundZone1_159
+  - first:
+      213: 8877583680094684659
+    second: undergroundZone1_160
+  - first:
+      213: 8963711736897428182
+    second: undergroundZone1_161
+  - first:
+      213: 7662903936177753338
+    second: undergroundZone1_162
+  - first:
+      213: 3931264165221594021
+    second: undergroundZone1_163
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 512
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: undergroundZone1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4097
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db20f7cd1904f4a50800000000000000
+      internalID: 6507490981787402941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undergroundZone1_2
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 4097
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0db6cc2c9dd32210800000000000000
+      internalID: 1307131979703434507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undergroundZone1_4
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 4097
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c45447be155fd7010800000000000000
+      internalID: 1188375608887100748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undergroundZone1_6
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 4097
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d65a5d0e79a4d83c0800000000000000
+      internalID: -4355743248424786579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undergroundZone1_8
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 4097
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c818f11ac81405d0800000000000000
+      internalID: -3097323387560126270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undergroundZone1_10
+      rect:
+        serializedVersion: 2
+        x: 5120
+        y: 4097
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 293f91f10e29d8030800000000000000
+      internalID: 3498613976828867474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undergroundZone1_12
+      rect:
+        serializedVersion: 2
+        x: 6144
+        y: 4097
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a8ba616d37e5a570800000000000000
+      internalID: 8477436124408232097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undergroundZone1_14
+      rect:
+        serializedVersion: 2
+        x: 7168
+        y: 4097
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1def20f2b77560160800000000000000
+      internalID: 6991371658120593105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undergroundZone1_18
+      rect:
+        serializedVersion: 2
+        x: 9216
+        y: 4097
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70949e1a2c17929a0800000000000000
+      internalID: -6257345126500579065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undergroundZone1_34
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3073
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 406645d6762755580800000000000000
+      internalID: -8839032905103284732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undergroundZone1_36
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 3073
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 739b85d86f755c110800000000000000
+      internalID: 1280526385501747511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undergroundZone1_38
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 3073
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67d24266c9dfb0a40800000000000000
+      internalID: 5335637031720856950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undergroundZone1_40
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 3073
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9da2300f04127cb60800000000000000
+      internalID: 7766212645212072665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undergroundZone1_42
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 3073
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 503f7ce4519512790800000000000000
+      internalID: -7556660751700069627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undergroundZone1_44
+      rect:
+        serializedVersion: 2
+        x: 5120
+        y: 3073
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f30e2f0c8fc87210800000000000000
+      internalID: 1331041890345026547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undergroundZone1_46
+      rect:
+        serializedVersion: 2
+        x: 6144
+        y: 3073
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d78e78ea3dfc314e0800000000000000
+      internalID: -2012036100431288195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undergroundZone1_48
+      rect:
+        serializedVersion: 2
+        x: 7168
+        y: 3073
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4720401da7a012bd0800000000000000
+      internalID: -2656830782562893196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undergroundZone1_51
+      rect:
+        serializedVersion: 2
+        x: 9216
+        y: 3073
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05d36366aee70b670800000000000000
+      internalID: 8552475237578849616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undergroundZone1_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2049
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bbc756b09a04dc80800000000000000
+      internalID: -8298996596686206026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undergroundZone1_72
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 2049
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 474d0b85093cc2b40800000000000000
+      internalID: 5416919476550554740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undergroundZone1_74
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 2049
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 016a93dbae485c390800000000000000
+      internalID: -7798681035990260208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undergroundZone1_76
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 2049
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc8f03e282e4aa720800000000000000
+      internalID: 2858182848000620749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undergroundZone1_78
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 2049
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0ed460ca6ae6e500800000000000000
+      internalID: 425284959048359434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undergroundZone1_80
+      rect:
+        serializedVersion: 2
+        x: 5120
+        y: 2049
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b999e36638f0afc90800000000000000
+      internalID: -7135373602584618597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undergroundZone1_82
+      rect:
+        serializedVersion: 2
+        x: 6144
+        y: 2049
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3904a54fb18da6330800000000000000
+      internalID: 3705011258040926355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undergroundZone1_84
+      rect:
+        serializedVersion: 2
+        x: 7168
+        y: 2049
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4365d99e95c80660800000000000000
+      internalID: 7352343676658737999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undergroundZone1_87
+      rect:
+        serializedVersion: 2
+        x: 9216
+        y: 2049
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2692958a2cc9c5590800000000000000
+      internalID: -7684094504338904734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undergroundZone1_107
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1025
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb0bf579e83978950800000000000000
+      internalID: 6451287231865794751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undergroundZone1_109
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1025
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1ecd67b22c51f730800000000000000
+      internalID: 4031104445649374750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undergroundZone1_111
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 1025
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 552f671c8cc3c0a80800000000000000
+      internalID: -8499351563818044843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undergroundZone1_113
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 1025
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e67d960a30f90f60800000000000000
+      internalID: 8001190345010149094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undergroundZone1_115
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 1025
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5c92ef349e5f11d0800000000000000
+      internalID: -3377877204684596131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undergroundZone1_117
+      rect:
+        serializedVersion: 2
+        x: 5120
+        y: 1025
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dffd1ef3337011460800000000000000
+      internalID: 7210552395093368829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undergroundZone1_119
+      rect:
+        serializedVersion: 2
+        x: 6144
+        y: 1025
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8f0c91e37b877100800000000000000
+      internalID: 105706446089097101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undergroundZone1_121
+      rect:
+        serializedVersion: 2
+        x: 7168
+        y: 1025
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 780b949071104ada0800000000000000
+      internalID: -5934617210515771257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undergroundZone1_123
+      rect:
+        serializedVersion: 2
+        x: 8192
+        y: 1025
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e43027c9f1ab2b620800000000000000
+      internalID: 2788495764227228494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undergroundZone1_125
+      rect:
+        serializedVersion: 2
+        x: 9216
+        y: 1025
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99d1fc0fcda4e69e0800000000000000
+      internalID: -1626280102640804455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undergroundZone1_145
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4368f615aa8035270800000000000000
+      internalID: 8237937670994495028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undergroundZone1_147
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf09372af2c3bd1c0800000000000000
+      internalID: -4477919229203214085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undergroundZone1_149
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 1
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dd155b5eeff39ea0800000000000000
+      internalID: -5867064490334020135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undergroundZone1_151
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 1
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3027e6a4a124ee80800000000000000
+      internalID: -8150352434575237058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undergroundZone1_153
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 1
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e7dbc74edf2021f0800000000000000
+      internalID: -1071804079580391447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undergroundZone1_155
+      rect:
+        serializedVersion: 2
+        x: 5120
+        y: 1
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98d71b67d96ceead0800000000000000
+      internalID: -2670979149380616823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undergroundZone1_157
+      rect:
+        serializedVersion: 2
+        x: 6144
+        y: 1
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95a64bc5d2c41e630800000000000000
+      internalID: 3954525705520573017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undergroundZone1_159
+      rect:
+        serializedVersion: 2
+        x: 7168
+        y: 1
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69c700535c64d1170800000000000000
+      internalID: 8150748713422191766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undergroundZone1_161
+      rect:
+        serializedVersion: 2
+        x: 8192
+        y: 1
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6da55ca3550856c70800000000000000
+      internalID: 8963711736897428182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undergroundZone1_163
+      rect:
+        serializedVersion: 2
+        x: 9216
+        y: 1
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a37146fde7ae8630800000000000000
+      internalID: 3931264165221594021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
