@@ -11,11 +11,11 @@ public class adManager : MonoBehaviour
 {
     // "ca-app-pub-3940256099942544/1033173712"; // test id
     // "ca-app-pub-1419825942572265/3689203384";// updated app id 
-    public string interstitialID = "ca-app-pub-3940256099942544/1033173712"; // test od
+    public string interstitialID = "ca-app-pub-1419825942572265/3689203384"; // test od
     InterstitialAd interstitial;
     public bool adClosed;
     bool adFailedToLoad;
-    //  
+    //  ca-app-pub-1419825942572265/3689203384
 
     // Start is called before the first frame update
     void Start()
@@ -84,9 +84,10 @@ public class adManager : MonoBehaviour
 
     public void HandleOnAdFailedToLoad(object sender, AdFailedToLoadEventArgs args)
     {
+        LoadAdError loadAdError = args.LoadAdError;
         // string msg = args.AdError.GetMessage();
         // MonoBehaviour.print("HandleFailedToReceiveAd event received with message: " + args.Message);
-        Debug.Log("HandleFailedToReceiveAd event received with message: " + args.Message);
+        Debug.Log("HandleFailedToReceiveAd event received with message: " + loadAdError.ToString());
         // adClosed = true;
         adFailedToLoad = true;
         // levelManager.instance.closeLevel();
