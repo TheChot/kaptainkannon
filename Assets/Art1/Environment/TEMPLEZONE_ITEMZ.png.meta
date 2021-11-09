@@ -1,0 +1,596 @@
+fileFormatVersion: 2
+guid: bc77a1db0d978164f9fd6ddb9ca961c5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3024818159040063400
+    second: TEMPLEZONE_ITEMZ_0
+  - first:
+      213: 3543074340218150258
+    second: TEMPLEZONE_ITEMZ_1
+  - first:
+      213: 1418419067945355641
+    second: TEMPLEZONE_ITEMZ_2
+  - first:
+      213: 3953997250813437079
+    second: TEMPLEZONE_ITEMZ_3
+  - first:
+      213: -1695329652966856344
+    second: TEMPLEZONE_ITEMZ_4
+  - first:
+      213: -9195883817341234125
+    second: TEMPLEZONE_ITEMZ_5
+  - first:
+      213: -1037785943873049232
+    second: TEMPLEZONE_ITEMZ_6
+  - first:
+      213: -4225414486665443879
+    second: TEMPLEZONE_ITEMZ_7
+  - first:
+      213: -3389270083110915940
+    second: TEMPLEZONE_ITEMZ_8
+  - first:
+      213: 8069161915788542442
+    second: TEMPLEZONE_ITEMZ_9
+  - first:
+      213: -591703242981708455
+    second: TEMPLEZONE_ITEMZ_10
+  - first:
+      213: -7678410615771580405
+    second: TEMPLEZONE_ITEMZ_11
+  - first:
+      213: -4665578553482763706
+    second: TEMPLEZONE_ITEMZ_12
+  - first:
+      213: -8111380086156846929
+    second: TEMPLEZONE_ITEMZ_13
+  - first:
+      213: -6716704130862718178
+    second: TEMPLEZONE_ITEMZ_14
+  - first:
+      213: -4879334182733986696
+    second: TEMPLEZONE_ITEMZ_15
+  - first:
+      213: -499279940334945151
+    second: TEMPLEZONE_ITEMZ_16
+  - first:
+      213: 1476139663768132594
+    second: TEMPLEZONE_ITEMZ_17
+  - first:
+      213: 8989823501992348890
+    second: TEMPLEZONE_ITEMZ_18
+  - first:
+      213: -3612146484169990392
+    second: TEMPLEZONE_ITEMZ_19
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 512
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: TEMPLEZONE_ITEMZ_0
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 1658
+        width: 131
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 858144819efa506d0800000000000000
+      internalID: -3024818159040063400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEMPLEZONE_ITEMZ_1
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 1543
+        width: 214
+        height: 331
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27d118527578b2130800000000000000
+      internalID: 3543074340218150258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEMPLEZONE_ITEMZ_2
+      rect:
+        serializedVersion: 2
+        x: 1061
+        y: 1759
+        width: 214
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 979068f80ac3fa310800000000000000
+      internalID: 1418419067945355641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEMPLEZONE_ITEMZ_3
+      rect:
+        serializedVersion: 2
+        x: 1975
+        y: 1534
+        width: 310
+        height: 323
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7942b99ec8b6fd630800000000000000
+      internalID: 3953997250813437079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEMPLEZONE_ITEMZ_4
+      rect:
+        serializedVersion: 2
+        x: 2425
+        y: 1534
+        width: 177
+        height: 323
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86969b1b9aaf878e0800000000000000
+      internalID: -1695329652966856344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEMPLEZONE_ITEMZ_5
+      rect:
+        serializedVersion: 2
+        x: 2966
+        y: 1445
+        width: 514
+        height: 490
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 334dc97d368a16080800000000000000
+      internalID: -9195883817341234125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEMPLEZONE_ITEMZ_6
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 1478
+        width: 47
+        height: 402
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07dad86be2b0991f0800000000000000
+      internalID: -1037785943873049232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEMPLEZONE_ITEMZ_7
+      rect:
+        serializedVersion: 2
+        x: 1082
+        y: 1532
+        width: 214
+        height: 115
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d5448d59ef4c55c0800000000000000
+      internalID: -4225414486665443879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEMPLEZONE_ITEMZ_8
+      rect:
+        serializedVersion: 2
+        x: 1555
+        y: 1530
+        width: 183
+        height: 213
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c90b05801d4e6f0d0800000000000000
+      internalID: -3389270083110915940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEMPLEZONE_ITEMZ_9
+      rect:
+        serializedVersion: 2
+        x: 3681
+        y: 1626
+        width: 259
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae1cfa9920c6bff60800000000000000
+      internalID: 8069161915788542442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEMPLEZONE_ITEMZ_10
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 1063
+        width: 387
+        height: 280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95de0a51909d9c7f0800000000000000
+      internalID: -591703242981708455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEMPLEZONE_ITEMZ_11
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 1051
+        width: 441
+        height: 306
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b08b8571a3ec07590800000000000000
+      internalID: -7678410615771580405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEMPLEZONE_ITEMZ_12
+      rect:
+        serializedVersion: 2
+        x: 1455
+        y: 1047
+        width: 410
+        height: 279
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 642aaff5609804fb0800000000000000
+      internalID: -4665578553482763706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEMPLEZONE_ITEMZ_13
+      rect:
+        serializedVersion: 2
+        x: 2106
+        y: 1051
+        width: 400
+        height: 271
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa8917e99c69e6f80800000000000000
+      internalID: -8111380086156846929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEMPLEZONE_ITEMZ_14
+      rect:
+        serializedVersion: 2
+        x: 3027
+        y: 766
+        width: 418
+        height: 518
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e13678afd2979c2a0800000000000000
+      internalID: -6716704130862718178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEMPLEZONE_ITEMZ_15
+      rect:
+        serializedVersion: 2
+        x: 3662
+        y: 1021
+        width: 216
+        height: 297
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87448b1a96f194cb0800000000000000
+      internalID: -4879334182733986696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEMPLEZONE_ITEMZ_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 428
+        width: 738
+        height: 431
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18c7bd02a833219f0800000000000000
+      internalID: -499279940334945151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEMPLEZONE_ITEMZ_17
+      rect:
+        serializedVersion: 2
+        x: 907
+        y: 426
+        width: 743
+        height: 435
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fb93c9043d4c7410800000000000000
+      internalID: 1476139663768132594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEMPLEZONE_ITEMZ_18
+      rect:
+        serializedVersion: 2
+        x: 2094
+        y: 745
+        width: 250
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adc46bd48d442cc70800000000000000
+      internalID: 8989823501992348890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEMPLEZONE_ITEMZ_19
+      rect:
+        serializedVersion: 2
+        x: 2977
+        y: 0
+        width: 518
+        height: 514
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80f1f5e19e31fddc0800000000000000
+      internalID: -3612146484169990392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

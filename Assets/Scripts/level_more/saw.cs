@@ -18,6 +18,7 @@ public class saw : MonoBehaviour
     public float moveDistance;
     float maxDis, minDis;    
     // public bool isFlying;
+    public AudioSource sawSound;
 
     // Start is called before the first frame update
     void Start()
@@ -64,6 +65,7 @@ public class saw : MonoBehaviour
                     if(transform.position.x < minDis || transform.position.x > maxDis)
                     {
                         moveLeft = !moveLeft;
+                        sawSound.Play();
                     }
 
                     if(!moveLeft)
@@ -81,6 +83,7 @@ public class saw : MonoBehaviour
                     if(transform.position.y < minDis || transform.position.y > maxDis)
                     {
                         moveLeft = !moveLeft;
+                        sawSound.Play();
                     }
 
                     if(!moveLeft)
@@ -108,6 +111,7 @@ public class saw : MonoBehaviour
         if(isMoving)
         {
             canMove = true;
+            sawSound.Play();
         }
     }
 

@@ -24,12 +24,10 @@ public class flyEnemyShooting : MonoBehaviour
 
     public Transform shootPoint;
     public GameObject bullet;
-    public int bulletsToFire;
-    public float bulletDelayTime;
-    public float shootBulletDelay;
-    // public float addedDeg = 180f;
-    // public float rotateSpeed;
-    // Transform target;
+    
+    Animator anim;
+    Transform target;    
+    public AudioSource warningSound;
 
     // Start is called before the first frame update
     void Start()
@@ -38,6 +36,8 @@ public class flyEnemyShooting : MonoBehaviour
         eF = GetComponent<enemyFlying>();
         delayReset = delayTime;
         nextReset = nextAttackCount;
+        target = GameObject.Find("player").transform;
+        anim = GetComponent<Animator>();
 
     }
 
@@ -47,12 +47,21 @@ public class flyEnemyShooting : MonoBehaviour
         if(canAttack)
         {
             Collider2D[] playerToDamage = Physics2D.OverlapCircleAll(detector.position, detectRange, whatIsPlayer);
-
             if(playerToDamage.Length > 0)
             {
+                warningSound.Play();
+                if(playerToDamage[0].transform.position.x > transform.position.x)
+                {
+                    transform.localScale = new Vector3(1,1,1);
+                } else 
+                {
+                    transform.localScale = new Vector3(-1,1,1);
+                }
+                anim.SetTrigger("warn");
                 eF.isStopped = true;
                 canAttack = false;
-                StartCoroutine(attackPlayer());  
+                
+                // StartCoroutine(attackPlayer());  
                 // target = playerToDamage[0].transform;
             }
         }
@@ -85,26 +94,37 @@ public class flyEnemyShooting : MonoBehaviour
         
     }
 
-    IEnumerator attackPlayer()
+    public void attackThePlayer()
     {
-        yield return new WaitForSeconds(shootBulletDelay);
-        for (int i = 0; i < bulletsToFire; i++)
-        {
-            Quaternion rotation = transform.rotation;
-            // rotation.eulerAngles = new Vector3(0,0, 0);
-            if(transform.localScale.x > 0)
-            {
-                rotation.eulerAngles = new Vector3(0,0, -45);
-            } else 
-            {
-                rotation.eulerAngles = new Vector3(0,0, -135);
-            }
-            
-            yield return new WaitForSeconds(bulletDelayTime);
-            GameObject bulletClone = (GameObject)Instantiate(bullet, shootPoint.position, rotation);
-        }
+        
+        GameObject bulletClone = (GameObject)Instantiate(bullet, shootPoint.position, shootPoint.rotation);
+    }
+
+    public void ceaseAttack()
+    {
         hasAttacked = true;
     }
+
+    // IEnumerator attackPlayer()
+    // {
+    //     yield return new WaitForSeconds(shootBulletDelay);
+    //     for (int i = 0; i < bulletsToFire; i++)
+    //     {
+    //         Quaternion rotation = transform.rotation;
+    //         // rotation.eulerAngles = new Vector3(0,0, 0);
+    //         if(transform.localScale.x > 0)
+    //         {
+    //             rotation.eulerAngles = new Vector3(0,0, -45);
+    //         } else 
+    //         {
+    //             rotation.eulerAngles = new Vector3(0,0, -135);
+    //         }
+            
+    //         yield return new WaitForSeconds(bulletDelayTime);
+    //         GameObject bulletClone = (GameObject)Instantiate(bullet, shootPoint.position, rotation);
+    //     }
+    //     hasAttacked = true;
+    // }
 
     void OnDrawGizmosSelected()
     {

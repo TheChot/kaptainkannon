@@ -14,6 +14,8 @@ public class enemyFlying : MonoBehaviour
     
     public bool isStopped;
 
+    public bool dontFlipX;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -59,9 +61,14 @@ public class enemyFlying : MonoBehaviour
         
         if(moveHorizontal)
         {
-            if(transform.position.x < minDis || transform.position.x > maxDis)
+            if(transform.position.x < minDis)
             {
-                moveLeft = !moveLeft;
+                moveLeft = false;
+            }
+            
+            if(transform.position.x > maxDis)
+            {
+                moveLeft = true;
             }
             
             if(!isStopped)
@@ -81,9 +88,13 @@ public class enemyFlying : MonoBehaviour
         } 
         else 
         {
-            if(transform.position.y < minDis || transform.position.y > maxDis)
+            if(transform.position.y < minDis) 
             {
-                moveLeft = !moveLeft;
+                moveLeft = false;
+            }
+            if(transform.position.y > maxDis)
+            {
+                moveLeft = true;
             }
 
             if(!isStopped)
@@ -101,13 +112,15 @@ public class enemyFlying : MonoBehaviour
             }
         }
 
-        if (rb.velocity.x < 0)
-        {
-            transform.localScale = new Vector3(-1, 1, 1);
-        }
-        else if (rb.velocity.x > 0)
-        {
-            transform.localScale = new Vector3(1, 1, 1);
+        if(!dontFlipX){
+            if (rb.velocity.x < 0)
+            {
+                transform.localScale = new Vector3(-1, 1, 1);
+            }
+            else if (rb.velocity.x > 0)
+            {
+                transform.localScale = new Vector3(1, 1, 1);
+            }
         }
         
     }

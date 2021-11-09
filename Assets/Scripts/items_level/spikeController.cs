@@ -7,7 +7,6 @@ public class spikeController : MonoBehaviour
     Transform thePlayer;
 
     public Transform leftPoint;
-    public Transform rightPoint;
 
     public int damage;
 
@@ -21,7 +20,7 @@ public class spikeController : MonoBehaviour
 
             if(thePlayer.position.x > transform.position.x)
             {
-                thePlayer.position = rightPoint.position;
+                thePlayer.position = leftPoint.position;
             } 
             else if(thePlayer.position.x < transform.position.x)
             {

@@ -27,29 +27,50 @@ public class playerMovement : MonoBehaviour
     float gunRecTimeReset;
     public bool isJumping; //gun jump recoil
     public int jumpCounter = 0;
+    public Transform shootPoint;
+
+    public bool isPc;
+
+    Animator anim;
+    public AudioSource jumpSound;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         gunRecTimeReset = gunRecTime;
+        anim = GetComponent<Animator>();
     }
 
     void Update()
     {
         moveInput = CrossPlatformInputManager.GetAxisRaw("Horizontal");
 
+        if(isPc){
+            moveInput = Input.GetAxisRaw("Horizontal");
+        }
+
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, whatIsGround);
-        
+        anim.SetBool("grounded", isGrounded);
         if (isGrounded)
         {
             isJumping = false;
-            if (CrossPlatformInputManager.GetButtonDown("Jump"))
-            {
-                rb.velocity = new Vector2(rb.velocity.x, jumpForce);
-                isJumping = true;
-                // jumpCounter += 1;
+            if(!isPc){
+                if (CrossPlatformInputManager.GetButtonDown("Jump"))
+                {
+                    jumpSound.Play();
+                    rb.velocity = new Vector2(rb.velocity.x, jumpForce);
+                    isJumping = true;
+                    // jumpCounter += 1;
+                }
+            }else{
+                if (Input.GetButtonDown("Jump"))
+                {
+                    jumpSound.Play();
+                    rb.velocity = new Vector2(rb.velocity.x, jumpForce);
+                    isJumping = true;
+                    // jumpCounter += 1;
+                }
             }
-            
         } 
     }
 
@@ -59,8 +80,14 @@ public class playerMovement : MonoBehaviour
         // hacky way of slightly disabling the 
         // moveinput so that the player can be pushed back by recoil
         if(!gunRecoil)
+        {
             rb.velocity = new Vector2(moveInput * moveSpeed, rb.velocity.y);
-        
+            anim.SetFloat("run", Mathf.Abs(moveInput));
+
+        } else 
+        {
+            anim.SetFloat("run", 0);
+        }
         if(gunRecoil)
         {
             gunRecTime -= Time.deltaTime;
@@ -75,22 +102,22 @@ public class playerMovement : MonoBehaviour
         // flips char
         if (moveInput < 0)
         {
-            gfxTransform.localScale = new Vector3(-1, 1, 1);
-            gunGfxTransform.localScale = new Vector3(-1, 1, 1);
-            gunGfxTransform.GetChild(0).GetChild(1).GetChild(0).localScale = new Vector3(-1, 1, 1);
-            gunGfxTransform.GetChild(0).GetChild(1).GetChild(1).localScale = new Vector3(-1, 1, 1);
+            transform.localScale = new Vector3(-1, 1, 1);
+            // shootPoint.localScale = new Vector3(-1, 1, 1);
+            // gfxTransform.localScale = new Vector3(-1, 1, 1);
+            // gunGfxTransform.localScale = new Vector3(-1, 1, 1);
+            // gunGfxTransform.GetChild(0).GetChild(1).GetChild(0).localScale = new Vector3(-1, 1, 1);
+            // gunGfxTransform.GetChild(0).GetChild(1).GetChild(1).localScale = new Vector3(-1, 1, 1);
         }
         else if (moveInput > 0)
         {
-            gfxTransform.localScale = new Vector3(1, 1, 1);
-            gunGfxTransform.localScale = new Vector3(1, 1, 1);
-            gunGfxTransform.GetChild(0).GetChild(1).GetChild(0).localScale = new Vector3(1, 1, 1);
-            gunGfxTransform.GetChild(0).GetChild(1).GetChild(1).localScale = new Vector3(1, 1, 1);
+            transform.localScale = new Vector3(1, 1, 1);
+            // shootPoint.localScale = new Vector3(-1, 1, 1);
+            // gfxTransform.localScale = new Vector3(1, 1, 1);
+            // gunGfxTransform.localScale = new Vector3(1, 1, 1);
+            // gunGfxTransform.GetChild(0).GetChild(1).GetChild(0).localScale = new Vector3(1, 1, 1);
+            // gunGfxTransform.GetChild(0).GetChild(1).GetChild(1).localScale = new Vector3(1, 1, 1);
         }
-
-        
-
-        
         
     }
 
@@ -98,6 +125,11 @@ public class playerMovement : MonoBehaviour
     // {
     //     rb.velocity = new Vector2(recoil, rb.velocity.y);
     // }
+
+    public void hurtRecoil(float bounce)
+    {
+        rb.velocity = new Vector2(0, bounce);
+    }
 
     void OnDrawGizmosSelected()
     {

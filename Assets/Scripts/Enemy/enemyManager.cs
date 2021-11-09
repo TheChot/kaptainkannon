@@ -14,6 +14,7 @@ public class enemyManager : MonoBehaviour
     #endregion
 
     public GameObject explosion;
+    public GameObject bomberExplosion;
     // Start is called before the first frame update
     void Start()
     {

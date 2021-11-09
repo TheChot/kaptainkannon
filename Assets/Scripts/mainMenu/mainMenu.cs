@@ -21,6 +21,7 @@ public class mainMenu : MonoBehaviour
     public Animator transition_anim;
     public int levelIndex;
 
+    public int tutorialLevelIndex = 1;
 
     
     void Start()
@@ -42,14 +43,25 @@ public class mainMenu : MonoBehaviour
 
     public void playGame()
     {
-        // add code that directs to
-        // tutorial first before level select
-        titleScreen.SetActive(false);
-        levelSelect.SetActive(true);
-        levelSelectIndex = 0;
-        // add code that opens the 
-        // first member of the level select array
-        // and an index for hoping through menus
+        // directs to tutorial first before level select
+        int firstTime = PlayerPrefs.GetInt("first time", 0);
+
+        if(firstTime == 0)
+        {
+            PlayerPrefs.SetInt("first time", 1);
+            levelIndex = tutorialLevelIndex;
+            transition_anim.ResetTrigger("toLevel");
+            transition_anim.SetTrigger("toLevel");
+
+        } else
+        {
+            
+            titleScreen.SetActive(false);
+            levelSelect.SetActive(true);
+            levelSelectIndex = 0;
+        }
+        
+        
     }
 
     public void quitGame()

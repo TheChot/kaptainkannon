@@ -259,6 +259,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   explosion: {fileID: 5292066439190030267, guid: 70892a219feb00347a19b0e1a689808f,
     type: 3}
+  bomberExplosion: {fileID: 2039474462136838494, guid: 2bc633043f28cd349a23adc47b541aad,
+    type: 3}
 --- !u!1 &5516498302106861401
 GameObject:
   m_ObjectHideFlags: 0
@@ -307,6 +309,11 @@ MonoBehaviour:
   dialogueArea: {fileID: 0}
   charPoint: {fileID: 0}
   dText: {fileID: 0}
+  cam: {fileID: 0}
+  thePlayer: {fileID: 0}
+  camDelay: 1
+  whiteTrans: {fileID: 0}
+  bM: {fileID: 0}
 --- !u!1 &6799133113212099873
 GameObject:
   m_ObjectHideFlags: 0

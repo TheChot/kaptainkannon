@@ -30,6 +30,8 @@ public class checkPointManager : MonoBehaviour
     public int enemiesDefeated;
     public int checkPointIndex;
     public int deadCount;
+    public bool songSet;
+    public int songIndex;
      
     
 }

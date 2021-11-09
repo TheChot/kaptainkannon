@@ -31,6 +31,8 @@ public class enemyShooting : MonoBehaviour
     float nextReset;
     bool startNextCount;
 
+    public AudioSource warningSound;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -54,12 +56,16 @@ public class enemyShooting : MonoBehaviour
                 hit = Physics2D.Raycast(transform.position, -transform.right, detectRange, whatIsPlayer);    
             }
             
-            if(hit.collider != null)
+            if(hit.collider != null && hit.collider.gameObject.layer == 10)
             {                
                 eM.isStopped = true;
-                // anim.SetTrigger("attack");
+                eM.canControl = false; 
+                anim.SetTrigger("warn");
                 canAttack = false;
-                StartCoroutine(attackPlayer());                
+                rb.velocity = new Vector2(0, rb.velocity.y);
+                anim.SetFloat("move", 0);
+                warningSound.Play();
+                // StartCoroutine(attackPlayer());                
                 
             }   
 
@@ -75,7 +81,14 @@ public class enemyShooting : MonoBehaviour
         {
             hasAttacked = false;
             eM.isStopped = false;
+            eM.canControl = true;
             delayTime = delayReset;
+            startNextCount = true;
+        }
+
+        if(startNextCount)
+        {
+            nextAttackCount -= Time.deltaTime;
         }
 
         if(nextAttackCount < 0)
@@ -87,16 +100,37 @@ public class enemyShooting : MonoBehaviour
 
     }
 
-    IEnumerator attackPlayer()
+    public void attackThePlayer()
     {
-        yield return new WaitForSeconds(shootBulletDelay);
-        for (int i = 0; i < bulletsToFire; i++)
+        GameObject bulletClone = (GameObject)Instantiate(bullet, shootPoint.position, shootPoint.rotation);
+        
+        if(transform.localScale.x < 0)        
         {
-            yield return new WaitForSeconds(shootDelayTime);
-            GameObject bulletClone = (GameObject)Instantiate(bullet, shootPoint.position, shootPoint.rotation);
+            // bulletClone.transform.localScale = new Vector3(-1,1,1);
+            Quaternion rotation = bulletClone.transform.rotation;
+            rotation.eulerAngles = new Vector3(0,0, 180);
+            bulletClone.transform.rotation = rotation;
         }
+    }
+
+    public void ceaseAttack()
+    {
+        // hurtPlayer = false;        
         hasAttacked = true;
-    }    
+
+    }
+
+    // IEnumerator attackPlayer()
+    // {
+    //     yield return new WaitForSeconds(shootBulletDelay);
+    //     for (int i = 0; i < bulletsToFire; i++)
+    //     {
+    //         yield return new WaitForSeconds(shootDelayTime);
+    //         GameObject bulletClone = (GameObject)Instantiate(bullet, shootPoint.position, shootPoint.rotation);
+            
+    //     }
+    //     hasAttacked = true;
+    // }    
 
     void OnDrawGizmosSelected()
     {

@@ -5,6 +5,7 @@ using UnityEngine;
 public class checkPoint : MonoBehaviour
 {
     public int checkPointIndex;
+    public bgMusicSearch bgM;
 
     void OnTriggerEnter2D(Collider2D other)
     {
@@ -17,6 +18,11 @@ public class checkPoint : MonoBehaviour
                 cm.checkPointUsed = true;
                 cm.levelTime = scoreManager.instance.levelTimer;
                 cm.checkPointIndex = checkPointIndex;
+                if(bgM != null)
+                {
+                    cm.songIndex = bgM.songIndex;
+                    cm.songSet = true;
+                }
                 // cm.enemiesDefeated = scoreManager.instance.enemiesKilled;
             }
             

@@ -17,6 +17,9 @@ public class platformAuto : MonoBehaviour
     float reappearTimeReset;
 
     public bool activatePlatform;
+    // determines whether its controlled 
+    // by the multiplatform controller
+    public bool controlSelf;
     // Start is called before the first frame update
     void Start()
     {
@@ -32,32 +35,34 @@ public class platformAuto : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        if(activatePlatform)
-        {
-            timingDelay -= Time.deltaTime;
-
-            if(timingDelay <= 0)
+        if(controlSelf){
+            if(activatePlatform)
             {
-                if(isActive)
-                {
-                    holdTime -= Time.deltaTime;
+                timingDelay -= Time.deltaTime;
 
-                    // add shake animation here
-
-                    if(holdTime <= 0)
-                    {
-                        isActive = false;
-                        holdTime = holdTimeReset;
-                    }
-                    
-                } else 
+                if(timingDelay <= 0)
                 {
-                    reappearTime -= Time.deltaTime;
-                    // add shake animation here 
-                    if(reappearTime <= 0)
+                    if(isActive)
                     {
-                        isActive = true;
-                        reappearTime = reappearTimeReset;
+                        holdTime -= Time.deltaTime;
+
+                        // add shake animation here
+
+                        if(holdTime <= 0)
+                        {
+                            isActive = false;
+                            holdTime = holdTimeReset;
+                        }
+                        
+                    } else 
+                    {
+                        reappearTime -= Time.deltaTime;
+                        // add shake animation here 
+                        if(reappearTime <= 0)
+                        {
+                            isActive = true;
+                            reappearTime = reappearTimeReset;
+                        }
                     }
                 }
             }

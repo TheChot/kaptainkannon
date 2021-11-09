@@ -113,6 +113,7 @@ public class levelManager : MonoBehaviour
     public void quitGame()
     {
         // Application.Quit();
+        Destroy(cm.gameObject);
         SceneManager.LoadScene(0);
     }
 
@@ -141,6 +142,7 @@ public class levelManager : MonoBehaviour
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }else
         {
+            Destroy(cm.gameObject);
             SceneManager.LoadScene(0);
         }
         
@@ -160,7 +162,8 @@ public class levelManager : MonoBehaviour
         yield return new WaitForSeconds(deathWait);        
         if(!isTrans)
         {
-            if(hasPaid || cm.deadCount > deadLimit)
+            // if(hasPaid || cm.deadCount > deadLimit)
+            if(hasPaid)
             {
                 isAd = false;
             }

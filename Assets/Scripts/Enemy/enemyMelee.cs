@@ -23,6 +23,8 @@ public class enemyMelee : MonoBehaviour
     bool canAttack = true;
     public float delayTime;
     float delayReset;
+    public AudioSource warningSound;
+    public AudioSource punchSound;
 
 
     // Start is called before the first frame update
@@ -48,11 +50,15 @@ public class enemyMelee : MonoBehaviour
             }
 
             
-            if(hit.collider != null)
-            {                
+            if(hit.collider != null && hit.collider.gameObject.layer == 10)
+            {
+                warningSound.Play();
                 eM.isStopped = true;
-                anim.SetTrigger("attack");
+                eM.canControl = false; 
+                anim.SetTrigger("warn");
                 canAttack = false;
+                rb.velocity = new Vector2(0, rb.velocity.y);
+                anim.SetFloat("move", 0);
             }
             
         }
@@ -63,36 +69,39 @@ public class enemyMelee : MonoBehaviour
         }
 
         if(delayTime < 0)
-        {
-            
+        {            
             // eM.moveLeft = !eM.moveLeft;
             canAttack = true;
             hasAttacked = false;
             eM.isStopped = false;
+            eM.canControl = true;
             delayTime = delayReset;
         }
 
-        if(hurtPlayer)
-        {
-            Collider2D[] playerToDamage = Physics2D.OverlapCircleAll(fist.position, fistRange, whatIsPlayer);
-                    
-            for (int i = 0; i < playerToDamage.Length; i++)
-            {
-                playerToDamage[i].gameObject.GetComponent<playerController>().takeDamage(damageGive);
-            } 
-        }
+        // if(hurtPlayer)
+        // {
+            
+        // }
         
 
     }
 
     public void attackPlayer()
     {
-        hurtPlayer = true;
+        Collider2D[] playerToDamage = Physics2D.OverlapCircleAll(fist.position, fistRange, whatIsPlayer);
+        if(playerToDamage.Length > 0)
+        {
+            punchSound.Play();
+        }                    
+        for (int i = 0; i < playerToDamage.Length; i++)
+        {
+            playerToDamage[i].gameObject.GetComponent<playerController>().takeDamage(damageGive);
+        } 
     }
 
     public void ceaseAttack()
     {
-        hurtPlayer = false;        
+        // hurtPlayer = false;        
         hasAttacked = true;
     }
 

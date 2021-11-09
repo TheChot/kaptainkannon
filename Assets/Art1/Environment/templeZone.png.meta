@@ -1,0 +1,2132 @@
+fileFormatVersion: 2
+guid: f2bf585f670b58c4d951cc5e10db05de
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5560733863755269273
+    second: templeZone_0
+  - first:
+      213: 2960923133229320933
+    second: templeZone_1
+  - first:
+      213: 7580901569271966875
+    second: templeZone_2
+  - first:
+      213: 5982357450798540796
+    second: templeZone_3
+  - first:
+      213: -3180900984560520574
+    second: templeZone_4
+  - first:
+      213: 8896740014969162091
+    second: templeZone_5
+  - first:
+      213: 1321980902267540492
+    second: templeZone_6
+  - first:
+      213: 8508039443415258898
+    second: templeZone_7
+  - first:
+      213: -9015108218741224864
+    second: templeZone_8
+  - first:
+      213: 6201131334550215693
+    second: templeZone_9
+  - first:
+      213: 8436203969995081032
+    second: templeZone_10
+  - first:
+      213: 2480265163941635773
+    second: templeZone_11
+  - first:
+      213: -4709897778288058784
+    second: templeZone_12
+  - first:
+      213: 6709218632589089292
+    second: templeZone_13
+  - first:
+      213: -3572413191224767950
+    second: templeZone_14
+  - first:
+      213: 2432377252720540576
+    second: templeZone_15
+  - first:
+      213: -869393726760246871
+    second: templeZone_16
+  - first:
+      213: 8749548751868376683
+    second: templeZone_17
+  - first:
+      213: 6892700942278088336
+    second: templeZone_18
+  - first:
+      213: 8653329177336771858
+    second: templeZone_19
+  - first:
+      213: -5121039840976751701
+    second: templeZone_20
+  - first:
+      213: -4106927529846069802
+    second: templeZone_21
+  - first:
+      213: 7049503278464884838
+    second: templeZone_22
+  - first:
+      213: 8656505462462257532
+    second: templeZone_23
+  - first:
+      213: 542166689393767393
+    second: templeZone_24
+  - first:
+      213: -4511938705224125708
+    second: templeZone_25
+  - first:
+      213: -8362673896503742848
+    second: templeZone_26
+  - first:
+      213: -8791456989135607287
+    second: templeZone_27
+  - first:
+      213: -8309050510360318426
+    second: templeZone_28
+  - first:
+      213: 4393078496395041038
+    second: templeZone_29
+  - first:
+      213: 8277159650153396408
+    second: templeZone_30
+  - first:
+      213: 2880008494401842024
+    second: templeZone_31
+  - first:
+      213: -219164544708763070
+    second: templeZone_32
+  - first:
+      213: -9127383380383560994
+    second: templeZone_33
+  - first:
+      213: 5978804593871686781
+    second: templeZone_34
+  - first:
+      213: 7967933475479508873
+    second: templeZone_35
+  - first:
+      213: -7381655002170078956
+    second: templeZone_36
+  - first:
+      213: 6839007827298992009
+    second: templeZone_37
+  - first:
+      213: -3551443314837161531
+    second: templeZone_38
+  - first:
+      213: -6600970317034668573
+    second: templeZone_39
+  - first:
+      213: -4571179872484823114
+    second: templeZone_40
+  - first:
+      213: 7748305009535814955
+    second: templeZone_41
+  - first:
+      213: 8190847425743979246
+    second: templeZone_42
+  - first:
+      213: 1368707250903803379
+    second: templeZone_43
+  - first:
+      213: 7400012597730752305
+    second: templeZone_44
+  - first:
+      213: -5106598329288582304
+    second: templeZone_45
+  - first:
+      213: -1388006476385714347
+    second: templeZone_46
+  - first:
+      213: 7957825373716576028
+    second: templeZone_47
+  - first:
+      213: -6010351246373959373
+    second: templeZone_48
+  - first:
+      213: -7528878708535496122
+    second: templeZone_49
+  - first:
+      213: 4549719753333775147
+    second: templeZone_50
+  - first:
+      213: 6602727346656144756
+    second: templeZone_51
+  - first:
+      213: -7009469294406642848
+    second: templeZone_52
+  - first:
+      213: -5344387204209492187
+    second: templeZone_53
+  - first:
+      213: 1220847447264935176
+    second: templeZone_54
+  - first:
+      213: -2407742663241976446
+    second: templeZone_55
+  - first:
+      213: 5331385222777280164
+    second: templeZone_56
+  - first:
+      213: 128373505193007570
+    second: templeZone_57
+  - first:
+      213: -1373668358481239367
+    second: templeZone_58
+  - first:
+      213: -2355884606662021207
+    second: templeZone_59
+  - first:
+      213: 4888709400528402203
+    second: templeZone_60
+  - first:
+      213: -4114656038690447830
+    second: templeZone_61
+  - first:
+      213: 6629356543221562332
+    second: templeZone_62
+  - first:
+      213: 7291210960545212376
+    second: templeZone_63
+  - first:
+      213: 8761435259984220572
+    second: templeZone_64
+  - first:
+      213: -3347940534918656934
+    second: templeZone_65
+  - first:
+      213: -3379568560045298422
+    second: templeZone_66
+  - first:
+      213: 6770837488997709391
+    second: templeZone_67
+  - first:
+      213: -6303021903324728804
+    second: templeZone_68
+  - first:
+      213: -5520460705597887658
+    second: templeZone_69
+  - first:
+      213: 6371134682513988116
+    second: templeZone_70
+  - first:
+      213: 909007619244920909
+    second: templeZone_71
+  - first:
+      213: -5362394788272052988
+    second: templeZone_72
+  - first:
+      213: -4584294110937710444
+    second: templeZone_73
+  - first:
+      213: 1741099560668392158
+    second: templeZone_74
+  - first:
+      213: -4170426322357073581
+    second: templeZone_75
+  - first:
+      213: 7655360589401984862
+    second: templeZone_76
+  - first:
+      213: 5858116731489266812
+    second: templeZone_77
+  - first:
+      213: -7294968085472966152
+    second: templeZone_78
+  - first:
+      213: 639587297158209189
+    second: templeZone_79
+  - first:
+      213: -8635866136506216945
+    second: templeZone_80
+  - first:
+      213: 4766131842802827993
+    second: templeZone_81
+  - first:
+      213: 1333102363561362789
+    second: templeZone_82
+  - first:
+      213: 7369215866946150459
+    second: templeZone_83
+  - first:
+      213: -7907487967815525372
+    second: templeZone_84
+  - first:
+      213: -3642076062756611400
+    second: templeZone_85
+  - first:
+      213: 4837315240508616274
+    second: templeZone_86
+  - first:
+      213: 4489253769180982468
+    second: templeZone_87
+  - first:
+      213: -190685605139639268
+    second: templeZone_88
+  - first:
+      213: -6449991372705825587
+    second: templeZone_89
+  - first:
+      213: 8176503324106657354
+    second: templeZone_90
+  - first:
+      213: -8069994913826849696
+    second: templeZone_91
+  - first:
+      213: 1228676964808374049
+    second: templeZone_92
+  - first:
+      213: 5937346510112223977
+    second: templeZone_93
+  - first:
+      213: -9022197408795459095
+    second: templeZone_94
+  - first:
+      213: -6771618872715467613
+    second: templeZone_95
+  - first:
+      213: 2517590197120390814
+    second: templeZone_96
+  - first:
+      213: -621957408694565112
+    second: templeZone_97
+  - first:
+      213: 6233327143734270162
+    second: templeZone_98
+  - first:
+      213: -8546535850692642383
+    second: templeZone_99
+  - first:
+      213: -6252971293667967823
+    second: templeZone_100
+  - first:
+      213: 4676391996147539316
+    second: templeZone_101
+  - first:
+      213: 4700770470755355667
+    second: templeZone_102
+  - first:
+      213: 8948104497984215568
+    second: templeZone_103
+  - first:
+      213: -5613778953244096233
+    second: templeZone_104
+  - first:
+      213: -9213415637928457180
+    second: templeZone_105
+  - first:
+      213: 6987631811077051208
+    second: templeZone_106
+  - first:
+      213: -4131221000653167700
+    second: templeZone_107
+  - first:
+      213: 1358526276951122986
+    second: templeZone_108
+  - first:
+      213: -1760557686864800837
+    second: templeZone_109
+  - first:
+      213: -819232342036259851
+    second: templeZone_110
+  - first:
+      213: -6591381879743128322
+    second: templeZone_111
+  - first:
+      213: -6183663405050665531
+    second: templeZone_112
+  - first:
+      213: -2910279897126712609
+    second: templeZone_113
+  - first:
+      213: -136819690670473458
+    second: templeZone_114
+  - first:
+      213: 8484113608678045336
+    second: templeZone_115
+  - first:
+      213: 3209927791409440892
+    second: templeZone_116
+  - first:
+      213: -4870957964786407879
+    second: templeZone_117
+  - first:
+      213: 6904214299092936149
+    second: templeZone_118
+  - first:
+      213: 4412306598242230110
+    second: templeZone_119
+  - first:
+      213: 3352057098337534516
+    second: templeZone_120
+  - first:
+      213: -7015253264203228334
+    second: templeZone_121
+  - first:
+      213: -4548091992301217213
+    second: templeZone_122
+  - first:
+      213: 5258882581893995531
+    second: templeZone_123
+  - first:
+      213: 7372923999887866921
+    second: templeZone_124
+  - first:
+      213: 6928822923260063392
+    second: templeZone_125
+  - first:
+      213: 5998469443535575507
+    second: templeZone_126
+  - first:
+      213: -505041098557368365
+    second: templeZone_127
+  - first:
+      213: 2790774165110092484
+    second: templeZone_128
+  - first:
+      213: -7541220953188674910
+    second: templeZone_129
+  - first:
+      213: 5414721640112141129
+    second: templeZone_130
+  - first:
+      213: 7645234426127697562
+    second: templeZone_131
+  - first:
+      213: -6298025767101251807
+    second: templeZone_132
+  - first:
+      213: 5938325676451406500
+    second: templeZone_133
+  - first:
+      213: 6152248274659171154
+    second: templeZone_134
+  - first:
+      213: 7159083190451099210
+    second: templeZone_135
+  - first:
+      213: -8388888211656524889
+    second: templeZone_136
+  - first:
+      213: 553616818307631732
+    second: templeZone_137
+  - first:
+      213: 136839319100392487
+    second: templeZone_138
+  - first:
+      213: -8642282047230162156
+    second: templeZone_139
+  - first:
+      213: -2197262193934686902
+    second: templeZone_140
+  - first:
+      213: -1410101856354898980
+    second: templeZone_141
+  - first:
+      213: 7908946456343895846
+    second: templeZone_142
+  - first:
+      213: 7163734065957240647
+    second: templeZone_143
+  - first:
+      213: -930749312015558611
+    second: templeZone_144
+  - first:
+      213: 4061469155009364562
+    second: templeZone_145
+  - first:
+      213: -2676486321013310361
+    second: templeZone_146
+  - first:
+      213: -1352296094548992756
+    second: templeZone_147
+  - first:
+      213: -8896939686328442639
+    second: templeZone_148
+  - first:
+      213: 7758672551014709979
+    second: templeZone_149
+  - first:
+      213: -1522443677402934311
+    second: templeZone_150
+  - first:
+      213: 8458301553789232409
+    second: templeZone_151
+  - first:
+      213: -3466625449596810845
+    second: templeZone_152
+  - first:
+      213: 1873484469553165107
+    second: templeZone_153
+  - first:
+      213: 1248098562045711743
+    second: templeZone_154
+  - first:
+      213: 5443510215882275139
+    second: templeZone_155
+  - first:
+      213: 339746727063459822
+    second: templeZone_156
+  - first:
+      213: 6159542336224549042
+    second: templeZone_157
+  - first:
+      213: 3156539568053470011
+    second: templeZone_158
+  - first:
+      213: -3952663732352248206
+    second: templeZone_159
+  - first:
+      213: 7098143259845567610
+    second: templeZone_160
+  - first:
+      213: 7797465645393246734
+    second: templeZone_161
+  - first:
+      213: -414224208738116815
+    second: templeZone_162
+  - first:
+      213: -8460372781908668310
+    second: templeZone_163
+  - first:
+      213: -166547316708706234
+    second: templeZone_164
+  - first:
+      213: 8511247153952493795
+    second: templeZone_165
+  - first:
+      213: -1831841865168982305
+    second: templeZone_166
+  - first:
+      213: 459548233401893482
+    second: templeZone_167
+  - first:
+      213: -2076699648197784192
+    second: templeZone_168
+  - first:
+      213: -4822599993708990446
+    second: templeZone_169
+  - first:
+      213: -2224513736712981126
+    second: templeZone_170
+  - first:
+      213: -4981079937217233073
+    second: templeZone_171
+  - first:
+      213: 4037620654629205611
+    second: templeZone_172
+  - first:
+      213: 4699210081712649930
+    second: templeZone_173
+  - first:
+      213: 6512731112849091937
+    second: templeZone_174
+  - first:
+      213: 8218295760958429011
+    second: templeZone_175
+  - first:
+      213: -5747644609666394793
+    second: templeZone_176
+  - first:
+      213: 7059158987361149448
+    second: templeZone_177
+  - first:
+      213: 5393176810548534395
+    second: templeZone_178
+  - first:
+      213: -5576673116625177171
+    second: templeZone_179
+  - first:
+      213: -4717006664662337878
+    second: templeZone_180
+  - first:
+      213: -514287679220177009
+    second: templeZone_181
+  - first:
+      213: 527452095689356116
+    second: templeZone_182
+  - first:
+      213: 8333312441061943463
+    second: templeZone_183
+  - first:
+      213: 4452952497162049461
+    second: templeZone_184
+  - first:
+      213: 1344901184361640044
+    second: templeZone_185
+  - first:
+      213: -8699743066480255387
+    second: templeZone_186
+  - first:
+      213: 7863001007875822490
+    second: templeZone_187
+  - first:
+      213: -7955338497227145447
+    second: templeZone_188
+  - first:
+      213: 8799859374883379081
+    second: templeZone_189
+  - first:
+      213: 7706957110442072181
+    second: templeZone_190
+  - first:
+      213: 8217970837719724012
+    second: templeZone_191
+  - first:
+      213: -1626116706433979412
+    second: templeZone_192
+  - first:
+      213: 3955731978219770410
+    second: templeZone_193
+  - first:
+      213: -9103568347431371286
+    second: templeZone_194
+  - first:
+      213: 2119414119395288280
+    second: templeZone_195
+  - first:
+      213: -1191924012477377559
+    second: templeZone_196
+  - first:
+      213: -1206454939625553791
+    second: templeZone_197
+  - first:
+      213: -6016906095663270289
+    second: templeZone_198
+  - first:
+      213: -4917298191047443548
+    second: templeZone_199
+  - first:
+      213: 2582452387680836208
+    second: templeZone_200
+  - first:
+      213: -2092965947144809091
+    second: templeZone_201
+  - first:
+      213: -4827518113908560938
+    second: templeZone_202
+  - first:
+      213: 1526711170960912857
+    second: templeZone_203
+  - first:
+      213: -7969179964796239650
+    second: templeZone_204
+  - first:
+      213: 5358187415415420680
+    second: templeZone_205
+  - first:
+      213: -176957574658523168
+    second: templeZone_206
+  - first:
+      213: 7372959725449837391
+    second: templeZone_207
+  - first:
+      213: -2034453782603316296
+    second: templeZone_208
+  - first:
+      213: 3782842150671986597
+    second: templeZone_209
+  - first:
+      213: -5934871082595065346
+    second: templeZone_210
+  - first:
+      213: -7170637474264354153
+    second: templeZone_211
+  - first:
+      213: -3802957172150869584
+    second: templeZone_212
+  - first:
+      213: 8560270164626757690
+    second: templeZone_213
+  - first:
+      213: -1579599497042726971
+    second: templeZone_214
+  - first:
+      213: 2726621205290541750
+    second: templeZone_215
+  - first:
+      213: 2048658397900235950
+    second: templeZone_216
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 512
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: templeZone_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6144
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76bb160530e44d2b0800000000000000
+      internalID: -5560733863755269273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: templeZone_2
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 6144
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9c28a9dfc5c43960800000000000000
+      internalID: 7580901569271966875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: templeZone_4
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 6144
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 282749d586b2bd3d0800000000000000
+      internalID: -3180900984560520574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: templeZone_6
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 6144
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c04d18f50ae985210800000000000000
+      internalID: 1321980902267540492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: templeZone_8
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 6144
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06a8932d6d6e3e280800000000000000
+      internalID: -9015108218741224864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: templeZone_10
+      rect:
+        serializedVersion: 2
+        x: 5120
+        y: 6144
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8450c4450da631570800000000000000
+      internalID: 8436203969995081032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: templeZone_12
+      rect:
+        serializedVersion: 2
+        x: 6144
+        y: 6144
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06e1dbcbce413aeb0800000000000000
+      internalID: -4709897778288058784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: templeZone_14
+      rect:
+        serializedVersion: 2
+        x: 7168
+        y: 6144
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23ac02a412d3c6ec0800000000000000
+      internalID: -3572413191224767950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: templeZone_16
+      rect:
+        serializedVersion: 2
+        x: 8192
+        y: 6144
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a1a082030b4fe3f0800000000000000
+      internalID: -869393726760246871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: templeZone_31
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5120
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86bedea7778d7f720800000000000000
+      internalID: 2880008494401842024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: templeZone_33
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 5120
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eda0f6bac25055180800000000000000
+      internalID: -9127383380383560994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: templeZone_34
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 5120
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7c023fd91bf8f250800000000000000
+      internalID: 5978804593871686781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: templeZone_35
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 5120
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98756efa749c39e60800000000000000
+      internalID: 7967933475479508873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: templeZone_37
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 5120
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98fb542626909ee50800000000000000
+      internalID: 6839007827298992009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: templeZone_39
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 5120
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ed30485874a464a0800000000000000
+      internalID: -6600970317034668573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: templeZone_41
+      rect:
+        serializedVersion: 2
+        x: 5120
+        y: 5120
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2d03c89a52878b60800000000000000
+      internalID: 7748305009535814955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: templeZone_43
+      rect:
+        serializedVersion: 2
+        x: 6144
+        y: 5120
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f56f933eff9ef210800000000000000
+      internalID: 1368707250903803379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: templeZone_45
+      rect:
+        serializedVersion: 2
+        x: 7168
+        y: 5120
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06b962c10e7b129b0800000000000000
+      internalID: -5106598329288582304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: templeZone_47
+      rect:
+        serializedVersion: 2
+        x: 8192
+        y: 5120
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1777f8d300ef6e60800000000000000
+      internalID: 7957825373716576028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: templeZone_65
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4096
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5cca0752d9b981d0800000000000000
+      internalID: -3347940534918656934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: templeZone_67
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 4096
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f463b93a2d8d6fd50800000000000000
+      internalID: 6770837488997709391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: templeZone_68
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 4096
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c12b2d849fa2788a0800000000000000
+      internalID: -6303021903324728804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: templeZone_69
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 4096
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65be556ac326363b0800000000000000
+      internalID: -5520460705597887658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: templeZone_71
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 4096
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4097331d917d9c00800000000000000
+      internalID: 909007619244920909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: templeZone_73
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 4096
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49084a37bc05160c0800000000000000
+      internalID: -4584294110937710444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: templeZone_75
+      rect:
+        serializedVersion: 2
+        x: 5120
+        y: 4096
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 359c7fd0b5baf16c0800000000000000
+      internalID: -4170426322357073581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: templeZone_77
+      rect:
+        serializedVersion: 2
+        x: 6144
+        y: 4096
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7ca03131263c4150800000000000000
+      internalID: 5858116731489266812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: templeZone_79
+      rect:
+        serializedVersion: 2
+        x: 7168
+        y: 4096
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ae97f1124540e800800000000000000
+      internalID: 639587297158209189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: templeZone_81
+      rect:
+        serializedVersion: 2
+        x: 8192
+        y: 4096
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d2c0f2b8a3b42240800000000000000
+      internalID: 4766131842802827993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: templeZone_99
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3072
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b9f25fdcea946980800000000000000
+      internalID: -8546535850692642383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: templeZone_101
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 3072
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47d9ad07eb1e5e040800000000000000
+      internalID: 4676391996147539316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: templeZone_103
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 3072
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01a9c6fb1ad0e2c70800000000000000
+      internalID: 8948104497984215568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: templeZone_105
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 3072
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42cce35ca4f532080800000000000000
+      internalID: -9213415637928457180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: templeZone_107
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 3072
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca32f675364faa6c0800000000000000
+      internalID: -4131221000653167700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: templeZone_109
+      rect:
+        serializedVersion: 2
+        x: 5120
+        y: 3072
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb317d39c1e3197e0800000000000000
+      internalID: -1760557686864800837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: templeZone_111
+      rect:
+        serializedVersion: 2
+        x: 6144
+        y: 3072
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efcd6fe5a15b684a0800000000000000
+      internalID: -6591381879743128322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: templeZone_113
+      rect:
+        serializedVersion: 2
+        x: 7168
+        y: 3072
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fda4dc65adb9c97d0800000000000000
+      internalID: -2910279897126712609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: templeZone_115
+      rect:
+        serializedVersion: 2
+        x: 8192
+        y: 3072
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 896ff475060adb570800000000000000
+      internalID: 8484113608678045336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: templeZone_133
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2048
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a2a7797dbb296250800000000000000
+      internalID: 5938325676451406500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: templeZone_135
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 2048
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a46de443b3c2a5360800000000000000
+      internalID: 7159083190451099210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: templeZone_137
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 2048
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47a88e42097dea700800000000000000
+      internalID: 553616818307631732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: templeZone_139
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 2048
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41b4c1e4442701880800000000000000
+      internalID: -8642282047230162156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: templeZone_141
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 2048
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdbe8da25df4e6ce0800000000000000
+      internalID: -1410101856354898980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: templeZone_143
+      rect:
+        serializedVersion: 2
+        x: 5120
+        y: 2048
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74ffeba8d22ba6360800000000000000
+      internalID: 7163734065957240647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: templeZone_145
+      rect:
+        serializedVersion: 2
+        x: 6144
+        y: 2048
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2520a8a8dac3d5830800000000000000
+      internalID: 4061469155009364562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: templeZone_147
+      rect:
+        serializedVersion: 2
+        x: 7168
+        y: 2048
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0d5245edddab3de0800000000000000
+      internalID: -1352296094548992756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: templeZone_149
+      rect:
+        serializedVersion: 2
+        x: 8192
+        y: 2048
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bda3ec3f3975cab60800000000000000
+      internalID: 7758672551014709979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: templeZone_167
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1024
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a620419fea4a06600800000000000000
+      internalID: 459548233401893482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: templeZone_169
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1024
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 210bc216bdea21db0800000000000000
+      internalID: -4822599993708990446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: templeZone_171
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 1024
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4f77502036afdab0800000000000000
+      internalID: -4981079937217233073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: templeZone_173
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 1024
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac6ba6dfba2f63140800000000000000
+      internalID: 4699210081712649930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: templeZone_175
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 1024
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3579603c3704d0270800000000000000
+      internalID: 8218295760958429011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: templeZone_177
+      rect:
+        serializedVersion: 2
+        x: 5120
+        y: 1024
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 802eaaea2bb27f160800000000000000
+      internalID: 7059158987361149448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: templeZone_178
+      rect:
+        serializedVersion: 2
+        x: 6144
+        y: 1024
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7c9e932cb968da40800000000000000
+      internalID: 5393176810548534395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: templeZone_180
+      rect:
+        serializedVersion: 2
+        x: 7168
+        y: 1024
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa6b6a52e63d98eb0800000000000000
+      internalID: -4717006664662337878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: templeZone_182
+      rect:
+        serializedVersion: 2
+        x: 8192
+        y: 1024
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 453799fe2e2e15700800000000000000
+      internalID: 527452095689356116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: templeZone_200
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07a5311a3c6b6d320800000000000000
+      internalID: 2582452387680836208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: templeZone_202
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6db67b94ad5310db0800000000000000
+      internalID: -4827518113908560938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: templeZone_204
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 0
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed009276b09c76190800000000000000
+      internalID: -7969179964796239650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: templeZone_206
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 0
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0eff92ef5025b8df0800000000000000
+      internalID: -176957574658523168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: templeZone_208
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 0
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b3caff401b24c3e0800000000000000
+      internalID: -2034453782603316296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: templeZone_210
+      rect:
+        serializedVersion: 2
+        x: 5120
+        y: 0
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef1ee26d13a13ada0800000000000000
+      internalID: -5934871082595065346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: templeZone_212
+      rect:
+        serializedVersion: 2
+        x: 6144
+        y: 0
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b16ce1d99e293bc0800000000000000
+      internalID: -3802957172150869584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: templeZone_214
+      rect:
+        serializedVersion: 2
+        x: 7168
+        y: 0
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cfe16360a2241ae0800000000000000
+      internalID: -1579599497042726971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: templeZone_216
+      rect:
+        serializedVersion: 2
+        x: 8192
+        y: 0
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea4e6f865fb4e6c10800000000000000
+      internalID: 2048658397900235950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

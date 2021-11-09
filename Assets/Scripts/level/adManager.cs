@@ -58,20 +58,20 @@ public class adManager : MonoBehaviour
 
     public void displayInterstitial()
     {
-        if (interstitial.IsLoaded()) 
-        {
-            interstitial.Show();
-        }
-        // if(!adFailedToLoad)
+        // if (interstitial.IsLoaded()) 
         // {
-        //     if (interstitial.IsLoaded()) 
-        //     {
-        //         interstitial.Show();
-        //     }
-        // } else 
-        // {
-        //     levelManager.instance.closeLevel();
+        //     interstitial.Show();
         // }
+        if(!adFailedToLoad)
+        {
+            if (interstitial.IsLoaded()) 
+            {
+                interstitial.Show();
+            }
+        } else 
+        {
+            levelManager.instance.closeLevel();
+        }
         
     }
 

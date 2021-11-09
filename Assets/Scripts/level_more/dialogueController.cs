@@ -11,6 +11,11 @@ public class dialogueController : MonoBehaviour
         public string dialogueLine;
         public bool isAnim;
         public string animName;
+        public bool moveCam;
+        public Vector2 camPosition;
+        public bool fadeToWhite;
+        public bool gap;
+        public float gapTime;
     }
     
     public dialogue[] dialogueLines;
@@ -18,10 +23,24 @@ public class dialogueController : MonoBehaviour
     dialogueManager dm;
     public Animator dialogueAnim;
     bool isActivated;
+    public bool deactivatePlayer;
+    public bool movePlayer;
+    public Vector2 playerEndPosition;
+    public bool activateAnimObj;
+    public GameObject animObj;
+    public bool isAutoD;
+    public bool isBossDialogue;
+    
 
     void Start()
     {
         dm = dialogueManager.instance;
+        if(isAutoD)
+        {
+            dm.isDialogue = true;
+            dm.dc = this;
+            isActivated = true;
+        }
     }
 
     
