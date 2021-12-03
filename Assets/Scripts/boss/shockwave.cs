@@ -30,7 +30,7 @@ public class shockwave : MonoBehaviour
     {
         if(other.gameObject.layer == LayerMask.NameToLayer("player"))
         {
-            other.gameObject.GetComponent<playerController>().takeDamage(damageGive);
+            enemyManager.instance.pc.takeDamage(damageGive);
             // gameObject.SetActive(false);
             Destroy(gameObject);
         }

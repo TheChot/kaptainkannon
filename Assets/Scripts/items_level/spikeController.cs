@@ -9,6 +9,8 @@ public class spikeController : MonoBehaviour
     public Transform leftPoint;
 
     public int damage;
+    
+    
 
     
 
@@ -16,18 +18,21 @@ public class spikeController : MonoBehaviour
     {
         if (collision.gameObject.layer == LayerMask.NameToLayer("player"))
         {
-            thePlayer = collision.gameObject.transform;
+            playerController _pc = enemyManager.instance.pc;
+            _pc.takeDamage(damage);
+            if(_pc.health > -1)
+            {
+                thePlayer = _pc.transform;
 
-            if(thePlayer.position.x > transform.position.x)
-            {
-                thePlayer.position = leftPoint.position;
-            } 
-            else if(thePlayer.position.x < transform.position.x)
-            {
-                thePlayer.position = leftPoint.position;
+                if(thePlayer.position.x > transform.position.x)
+                {
+                    thePlayer.position = leftPoint.position;
+                } 
+                else if(thePlayer.position.x < transform.position.x)
+                {
+                    thePlayer.position = leftPoint.position;
+                }                
             }
-
-            collision.gameObject.GetComponent<playerController>().takeDamage(damage);
         }
     }
 }

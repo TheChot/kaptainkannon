@@ -12,7 +12,7 @@ public class bladeHurt : MonoBehaviour
         if (collision.gameObject.layer == LayerMask.NameToLayer("player"))
         {
             Instantiate(explosion, transform.position, transform.rotation);
-            collision.gameObject.GetComponent<playerController>().takeDamage(damageGive);
+            enemyManager.instance.pc.takeDamage(damageGive);
             // Destroy(gameObject);
             gameObject.SetActive(false);
         }

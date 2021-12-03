@@ -6,6 +6,7 @@ public class bossWeakSpot : MonoBehaviour
 {
     bossController bC;
     public bool isWeaken;
+    public GameObject confirmHit1;
     // Start is called before the first frame update
     public void hitWeak()
     {
@@ -16,10 +17,17 @@ public class bossWeakSpot : MonoBehaviour
             {
                 bC.bossHealth -= 1;
                 bC.exposeWeak = false;
+                if(bC.confirmHit != null)
+                    bC.confirmHit.SetActive(true);
+                
+                if(confirmHit1 != null)
+                    confirmHit1.SetActive(true);
             }
         } else 
         {
             bC.hit -= 1;
+            if(confirmHit1 != null)
+                confirmHit1.SetActive(true);
         }
     }
 }

@@ -11,7 +11,7 @@ public class doorControl : MonoBehaviour
 
     public Transform disappearPoint;
 
-    public GameObject[] doorLight;
+    // public GameObject[] doorLight;
     
     // Start is called before the first frame update
     void Start()
@@ -24,10 +24,10 @@ public class doorControl : MonoBehaviour
     {
         if(activateDoor)
         {
-            for (int i = 0; i < doorLight.Length; i++)
-            {
-                doorLight[i].SetActive(true);
-            }          
+            // for (int i = 0; i < doorLight.Length; i++)
+            // {
+            //     doorLight[i].SetActive(true);
+            // }          
             
             if(doorUp)
             {

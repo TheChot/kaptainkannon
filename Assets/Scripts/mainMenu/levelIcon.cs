@@ -9,6 +9,9 @@ public class levelIcon : MonoBehaviour
     public int levelPre; //the requisite level
     public bool noPre; // for levels with no prereq
     Button levelButton;
+    public GameObject lockItem;
+    public GameObject levelNum;
+    public GameObject star;
     
     // Start is called before the first frame update
     void Start()
@@ -21,16 +24,28 @@ public class levelIcon : MonoBehaviour
         
         if(!noPre)
         {
+            
             int prerequisiteLevel = PlayerPrefs.GetInt(level_complete_name, 0);
+            // Debug.Log(level_complete_name + " " + prerequisiteLevel.ToString());
             if(prerequisiteLevel != 0)
             {
                 levelButton.enabled = true;
-                transform.GetChild(0).gameObject.SetActive(true);
-                transform.GetChild(1).gameObject.SetActive(false);
+                levelNum.SetActive(true);
+                lockItem.SetActive(false);
+            } else 
+            {
+                levelNum.SetActive(false);
+                lockItem.SetActive(true);
+                levelButton.enabled = false;
             }
 
             
             
+        } else 
+        {
+            levelNum.SetActive(true);
+            lockItem.SetActive(false);
+            levelButton.enabled = true;
         }
 
         // checks for a player pref that matches this
@@ -42,7 +57,10 @@ public class levelIcon : MonoBehaviour
 
         if(hasStar != 0)
         {
-            transform.GetChild(2).gameObject.SetActive(true);
+            star.SetActive(true);
+        } else 
+        {
+            star.SetActive(false);
         }
             
     }

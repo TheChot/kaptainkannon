@@ -11,6 +11,9 @@ public class playerController : MonoBehaviour
     public float bounce;
     playerMovement pM;
     public bool godMode;
+    public SpriteRenderer sr;
+    public int blinkCount = 5;
+    public float blinkTime = 0.5f;
 
     // Start is called before the first frame update
     void Start()
@@ -35,7 +38,7 @@ public class playerController : MonoBehaviour
         if(health < 0)
         {
             lm.isDead = true;
-            gameObject.SetActive(false);
+            // gameObject.SetActive(false);
         }
     }
 
@@ -45,11 +48,32 @@ public class playerController : MonoBehaviour
         if(!godMode){
             health -= dmg;
         }
+        StartCoroutine(playerHurt());
         pM.hurtRecoil(bounce);
     }
 
     public void turnOnGod()
     {
         godMode = !godMode;
+    }
+
+    IEnumerator playerHurt()
+    {
+        
+        for (int i = 0; i < blinkCount; i++)
+        {
+            yield return new WaitForSeconds(blinkTime);
+            if (sr.color == Color.red)
+            {
+                sr.color = Color.white;
+            }
+            else
+            {
+                sr.color = Color.red;
+            }    
+        }
+
+        sr.color = Color.white;
+             
     }
 }

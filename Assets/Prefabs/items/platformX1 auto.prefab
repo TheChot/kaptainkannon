@@ -68,7 +68,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1419770163
-  m_SortingLayer: 5
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Sprite: {fileID: 2309321650376289488, guid: 986648f4da2901043b76785d297df091,
     type: 3}
@@ -109,7 +109,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6589063122276228430}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -3.66, y: -0.34, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -159,7 +159,7 @@ PlatformEffector2D:
   m_RotationalOffset: 0
   m_UseOneWay: 1
   m_UseOneWayGrouping: 0
-  m_SurfaceArc: 180
+  m_SurfaceArc: 142.6
   m_UseSideFriction: 0
   m_UseSideBounce: 0
   m_SideArc: 1
@@ -177,8 +177,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   timingDelay: 1
   isActive: 0
-  holdTime: 2
-  reappearTime: 2
+  holdTime: 2.5
+  reappearTime: 1
+  activatePlatform: 1
+  controlSelf: 1
 --- !u!114 &719403287519513198
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -259,7 +261,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1419770163
-  m_SortingLayer: 5
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Sprite: {fileID: -6841432873800970925, guid: 986648f4da2901043b76785d297df091,
     type: 3}

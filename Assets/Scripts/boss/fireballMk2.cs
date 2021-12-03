@@ -7,6 +7,7 @@ public class fireballMk2 : MonoBehaviour
     bool fire;
     public float speed;
     public int damageGive;
+    public GameObject explosion;
     
     // Update is called once per frame
     void FixedUpdate()
@@ -21,13 +22,15 @@ public class fireballMk2 : MonoBehaviour
     {
         if(other.gameObject.layer == LayerMask.NameToLayer("player"))
         {
-            other.gameObject.GetComponent<playerController>().takeDamage(damageGive);
+            enemyManager.instance.pc.takeDamage(damageGive);
             // gameObject.SetActive(false);
+            GameObject _explosionClone = (GameObject)Instantiate(explosion, transform.position, transform.rotation);
             Destroy(gameObject);
         }
 
         if(other.gameObject.layer == LayerMask.NameToLayer("ground"))
-        {            
+        { 
+            GameObject _explosionClone = (GameObject)Instantiate(explosion, transform.position, transform.rotation);           
             // gameObject.SetActive(false);
             Destroy(gameObject);
         }

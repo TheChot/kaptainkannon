@@ -2084,6 +2084,9 @@ MonoBehaviour:
   - {fileID: 0}
   bounce: 2.5
   godMode: 0
+  sr: {fileID: 1053242691465579454}
+  blinkCount: 5
+  blinkTime: 0.15
 --- !u!114 &5486271922275741033
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2098,6 +2101,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   shotGunEquipped: 1
   shotGunGFX: {fileID: 5486271921783759732}
+  shootButton: {fileID: 0}
 --- !u!114 &5486271922275741032
 MonoBehaviour:
   m_ObjectHideFlags: 0

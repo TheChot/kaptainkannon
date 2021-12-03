@@ -949,6 +949,7 @@ GameObject:
   - component: {fileID: 5504550329213679721}
   - component: {fileID: 5504550329213679718}
   - component: {fileID: 1561072015857389097}
+  - component: {fileID: 875025934}
   m_Layer: 13
   m_Name: dragonstrong
   m_TagString: Untagged
@@ -1012,9 +1013,29 @@ MonoBehaviour:
   moveLeft: 0
   speed: 3.5
   bC3: {fileID: 0}
-  leftPoint: 160.72
+  leftPoint: 157.81
   rightPoint: 187.97
   isWeak: 0
+  col: {fileID: 5504550330389345068}
+--- !u!95 &875025934
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5504550329213679720}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: ff8a98e3a7870db4cb23d449f15dda56, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &5504550329406387925
 GameObject:
   m_ObjectHideFlags: 0
@@ -1637,7 +1658,7 @@ BoxCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5504550330389345073}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 1

@@ -34,6 +34,9 @@ public class dialogueManager : MonoBehaviour
     GameObject tempIcon;
 
     public bossManager bM;
+    bool dlogstarted;
+
+    public GameObject theCredits;
 
     // Start is called before the first frame update
     void Start()
@@ -60,7 +63,7 @@ public class dialogueManager : MonoBehaviour
             
 
 
-            if(dc.dialogueIndex == 0)
+            if(dc.dialogueIndex == 0 && !dlogstarted)
             {
                 if(dc.dialogueLines[0].isAnim)
                 {
@@ -81,8 +84,9 @@ public class dialogueManager : MonoBehaviour
                 {
                     dialogueArea.SetActive(true);
                     dText.text = dc.dialogueLines[0].dialogueLine;
-                    Instantiate(dc.dialogueLines[0].charIcon, charPoint, false);
+                    tempIcon = (GameObject)Instantiate(dc.dialogueLines[0].charIcon, charPoint, false);
                 }
+                dlogstarted = true;
             }
 
             if(camCount)
@@ -169,32 +173,47 @@ public class dialogueManager : MonoBehaviour
 
     public void endDialogue()
     {
-        if(dc.movePlayer)
-        {
-            thePlayer.transform.position = new Vector3(dc.playerEndPosition.x, dc.playerEndPosition.y, thePlayer.transform.position.z);
-        }
-
-        if(dc.deactivatePlayer)
-        {
-            thePlayer.gameObject.SetActive(true);
-        }
-        if(dc.activateAnimObj)
-        {
-            dc.animObj.SetActive(false);
-        }
-
-        if(!dc.isBossDialogue)
-        {
-            cam.storyMode = false;
+        
+        if(!dc.isEndGame)
+        { 
+            if(dc.movePlayer)
+            {
+                thePlayer.transform.position = new Vector3(dc.playerEndPosition.x, dc.playerEndPosition.y, thePlayer.transform.position.z);
+            }  
+            if(dc.deactivatePlayer)
+            {
+                thePlayer.gameObject.SetActive(true);
+            }
+            if(dc.activateAnimObj)
+            {
+                dc.animObj.SetActive(false);
+            }
+            // activate the player HUD
+            levelManager.instance.playerHud.SetActive(true);
+            if(!dc.isBossDialogue)
+            {
+                cam.storyMode = false;
+            } else 
+            {
+                bM.centerBossCam();
+            }
         } else 
         {
-            bM.centerBossCam();
+            theCredits.SetActive(true);
+            // cam.storyMode = true;
         }
+        
         
         isDialogue = false;
         dc = null;
         dialogueArea.SetActive(false);
-        levelManager.instance.playerHud.SetActive(true);
+        
+        dlogstarted = false;
+        if(tempIcon != null)
+        {
+            Destroy(tempIcon);
+            tempIcon = null;
+        }
         
     }
 

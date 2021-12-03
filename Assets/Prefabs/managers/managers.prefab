@@ -77,7 +77,7 @@ MonoBehaviour:
   playerHud: {fileID: 0}
   deathMenu: {fileID: 0}
   isDead: 0
-  deathWait: 0.3
+  deathWait: 4
   levelComplete: 0
   endLevelTime: 0.6
   endLevelMenu: {fileID: 0}
@@ -97,10 +97,11 @@ MonoBehaviour:
   thePlayer: {fileID: 0}
   transition_anim: {fileID: 0}
   levelStart: 0
-  adMan: {fileID: 0}
+  adMan: {fileID: 529113277058248486}
   adCount: 0
   isRestarting: 0
-  deadLimit: 0
+  deadLimit: 15
+  timesToAdd: 2
 --- !u!1 &4174937232421664300
 GameObject:
   m_ObjectHideFlags: 0
@@ -261,6 +262,7 @@ MonoBehaviour:
     type: 3}
   bomberExplosion: {fileID: 2039474462136838494, guid: 2bc633043f28cd349a23adc47b541aad,
     type: 3}
+  pc: {fileID: 0}
 --- !u!1 &5516498302106861401
 GameObject:
   m_ObjectHideFlags: 0

@@ -33,12 +33,14 @@ public class playerMovement : MonoBehaviour
 
     Animator anim;
     public AudioSource jumpSound;
+    playerController pC;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         gunRecTimeReset = gunRecTime;
         anim = GetComponent<Animator>();
+        pC = GetComponent<playerController>();
     }
 
     void Update()
@@ -76,6 +78,9 @@ public class playerMovement : MonoBehaviour
 
     void FixedUpdate()
     {
+        anim.SetBool("isDead", pC.health < 0);
+        if(pC.health < 0)
+            return;
         // gun recoil variable
         // hacky way of slightly disabling the 
         // moveinput so that the player can be pushed back by recoil

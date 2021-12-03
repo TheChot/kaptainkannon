@@ -7,15 +7,18 @@ public class fallingGround : MonoBehaviour
     public GameObject stableFloor;
     public GameObject warningFloor;
     public GameObject warningFloorLast;
+    public GameObject dust;
     public float warningWait;
     public float warningMid;
     public float warningWaitLast;
+    Collider2D col;
 
     // Start is called before the first frame update
     void Start()
     {
         warningFloor.SetActive(false);
         warningFloorLast.SetActive(false);
+        col = GetComponent<Collider2D>();
     }    
 
     void OnCollisionEnter2D(Collision2D collision)
@@ -37,7 +40,11 @@ public class fallingGround : MonoBehaviour
         warningFloorLast.SetActive(true);
         yield return new WaitForSeconds(warningWaitLast);
         warningFloorLast.SetActive(false);
-        gameObject.SetActive(false);
+        dust.SetActive(true);
+        col.enabled = false;
+        yield return new WaitForSeconds(warningWaitLast);
+        // gameObject.SetActive(false);
+        Destroy(gameObject);
         
     }
 }

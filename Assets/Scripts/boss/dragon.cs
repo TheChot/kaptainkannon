@@ -12,15 +12,20 @@ public class dragon : MonoBehaviour
     bossController bC;
     Animator anim;
     bossManager bM;
+    public Collider2D col;
     
     // Start is called before the first frame update
     void Start() 
     {
+        col.enabled = false;
         bM = bossManager.instance;
         anim = GetComponent<Animator>(); 
         bC = bM.bC;
         if(!moveLeft)    
             transform.localScale = new Vector3( -1, 1, 1);
+
+        col.enabled = true;
+        Debug.Log(col.enabled);
     }
     
     void FixedUpdate()

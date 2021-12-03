@@ -10,7 +10,8 @@ public class enemyHurt : MonoBehaviour
     {
         if (collision.gameObject.layer == LayerMask.NameToLayer("player"))
         {
-            collision.gameObject.GetComponent<playerController>().takeDamage(damageGive);
+            enemyManager.instance.pc.takeDamage(damageGive);
+            Debug.Log("Im hurt");
         }
     }
 }

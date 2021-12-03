@@ -55,6 +55,7 @@ public class levelManager : MonoBehaviour
     bool hasPaid;
 
     public int deadLimit;
+    public int timesToAdd = 2;
 
     // Start is called before the first frame update
     void Start()
@@ -155,7 +156,7 @@ public class levelManager : MonoBehaviour
             adCount++;
             PlayerPrefs.SetInt("ad_counter", adCount);
             setAd = true;            
-            isAd =  adCount > 2;
+            isAd =  adCount > timesToAdd;
             cm.deadCount++;
         }
         

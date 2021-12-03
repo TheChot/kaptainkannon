@@ -1,7 +1,28 @@
 fileFormatVersion: 2
 guid: 03199c5ed302cad41bff2d2119ee7de7
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 5741329394796659161
+    second: BG_TEMPLEZONE_0
+  - first:
+      213: 4192871547974307028
+    second: BG_TEMPLEZONE_1
+  - first:
+      213: 4503277639527796093
+    second: BG_TEMPLEZONE_2
+  - first:
+      213: -4998914956755204750
+    second: BG_TEMPLEZONE_3
+  - first:
+      213: -4052100712183164786
+    second: BG_TEMPLEZONE_4
+  - first:
+      213: -4227496806157540476
+    second: BG_TEMPLEZONE_5
+  - first:
+      213: 8434517080039587639
+    second: BG_TEMPLEZONE_6
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -40,7 +61,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -71,9 +92,180 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: BG_TEMPLEZONE_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1391
+        width: 622
+        height: 669
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d10d5b6aac4daf40800000000000000
+      internalID: 5741329394796659161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_TEMPLEZONE_1
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 1204
+        width: 744
+        height: 838
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dcc9d54572103a30800000000000000
+      internalID: 4192871547974307028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_TEMPLEZONE_2
+      rect:
+        serializedVersion: 2
+        x: 1925
+        y: 1196
+        width: 508
+        height: 864
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7d830d572bde7e30800000000000000
+      internalID: 4503277639527796093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_TEMPLEZONE_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 603
+        height: 921
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 275083c055940aab0800000000000000
+      internalID: -4998914956755204750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_TEMPLEZONE_4
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 585
+        width: 544
+        height: 485
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8017380fdb04c7c0800000000000000
+      internalID: -4052100712183164786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_TEMPLEZONE_5
+      rect:
+        serializedVersion: 2
+        x: 1888
+        y: 0
+        width: 545
+        height: 921
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 483a1e39d0ae455c0800000000000000
+      internalID: -4227496806157540476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_TEMPLEZONE_6
+      rect:
+        serializedVersion: 2
+        x: 1018
+        y: 60
+        width: 526
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73f79b7a89c6d0570800000000000000
+      internalID: 8434517080039587639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

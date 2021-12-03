@@ -15,10 +15,11 @@ public class enemyManager : MonoBehaviour
 
     public GameObject explosion;
     public GameObject bomberExplosion;
+    public playerController pc;
     // Start is called before the first frame update
     void Start()
     {
-        
+        pc = GameObject.Find("player").GetComponent<playerController>();
     }
 
     // Update is called once per frame

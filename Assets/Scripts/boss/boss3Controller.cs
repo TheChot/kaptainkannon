@@ -236,6 +236,7 @@ public class boss3Controller : MonoBehaviour
                     dg.bC3 = this;
                     dg.moveLeft = true;
                     switchD = true;
+                    // dg.col.enabled = true;
 
                 } else 
                 {
@@ -243,6 +244,7 @@ public class boss3Controller : MonoBehaviour
                     dragon dg = _dragon.GetComponent<dragon>();
                     dg.bC3 = this;
                     switchD = false;
+                    // dg.col.enabled = true;
                 }
             } else 
             {
@@ -253,6 +255,7 @@ public class boss3Controller : MonoBehaviour
                     dg.bC3 = this;
                     dg.moveLeft = true;
                     switchD = true;
+                    // dg.col.enabled = true;
 
                 } else 
                 {
@@ -260,6 +263,7 @@ public class boss3Controller : MonoBehaviour
                     dragon dg = _dragon.GetComponent<dragon>();
                     dg.bC3 = this;
                     switchD = false;
+                    // dg.col.enabled = true;
                 }
             }
 
@@ -275,13 +279,15 @@ public class boss3Controller : MonoBehaviour
                     dragon dg = _dragon.GetComponent<dragon>();
                     dg.bC3 = this;
                     switchD = true;
+                    // dg.col.enabled = true;
                 } else 
                 {
                     GameObject _dragon = (GameObject)Instantiate(dragonStrong, dragonSpawn2.position, dragonSpawn2.rotation);
                     dragon dg = _dragon.GetComponent<dragon>();
                     dg.bC3 = this;
                     dg.moveLeft = true;
-                    switchD = false;                    
+                    switchD = false;    
+                    // dg.col.enabled = true;                
                 }
 
             } else 
@@ -292,6 +298,7 @@ public class boss3Controller : MonoBehaviour
                     dragon dg = _dragon.GetComponent<dragon>();
                     dg.bC3 = this;
                     switchD = true;
+                    // dg.col.enabled = true;
                 } else 
                 {
                     GameObject _dragon = (GameObject)Instantiate(dragonWeak, dragonSpawn2.position, dragonSpawn2.rotation);
@@ -299,6 +306,7 @@ public class boss3Controller : MonoBehaviour
                     dg.bC3 = this;
                     dg.moveLeft = true;
                     switchD = false;
+                    // dg.col.enabled = true;
                     
                 }
             }

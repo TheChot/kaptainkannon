@@ -102,6 +102,7 @@ public class saw : MonoBehaviour
     {
         if(other.gameObject.layer == LayerMask.NameToLayer("player"))
         {
+            sawSound.Play();
             other.gameObject.GetComponent<playerController>().takeDamage(damageGive);            
         }        
     }

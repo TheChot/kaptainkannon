@@ -9,6 +9,10 @@ public class bgMusicSearch : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        for (int i = 0; i < bgmusic.Length; i++)
+        {
+            bgmusic[i].Stop();
+        }
         if(checkPointManager.instance.songSet)
             songIndex = checkPointManager.instance.songIndex;
         bgmusic[songIndex].Play();

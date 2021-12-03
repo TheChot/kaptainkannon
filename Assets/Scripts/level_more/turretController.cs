@@ -12,12 +12,14 @@ public class turretController : MonoBehaviour
     // int bulletCounter;
     public Transform[] shootPoints;
     public GameObject bullet;
+    Animator anim;
     
 
     // Start is called before the first frame update
     void Start()
     {
         timerReset = timer;
+        anim = GetComponent<Animator>(); 
     }
 
     // Update is called once per frame
@@ -41,6 +43,7 @@ public class turretController : MonoBehaviour
     {
         for (int i = 0; i < shootPoints.Length; i++)
         {
+            
             GameObject bulletClone = (GameObject)Instantiate(bullet, shootPoints[i].position, shootPoints[i].rotation);
         }
         
@@ -56,6 +59,7 @@ public class turretController : MonoBehaviour
             // add bullet animation and fire function here
             for (int j = 0; j < shootPoints.Length; j++)
             {
+                anim.SetTrigger("fire");
                 GameObject bulletClone = (GameObject)Instantiate(bullet, shootPoints[j].position, shootPoints[j].rotation);
             }
             // GameObject bsulletClone = (GameObject)Instantiate(bullet, shootPoint.position, shootPoint.rotation);

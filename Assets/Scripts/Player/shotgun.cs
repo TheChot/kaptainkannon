@@ -34,7 +34,7 @@ public class shotgun : MonoBehaviour
     Animator anim;
     public AudioSource gunSound;
     public AudioSource reloadSound;
-    
+    playerController pC;
 
 
     void Start()
@@ -45,6 +45,7 @@ public class shotgun : MonoBehaviour
         reloadTimeReset = reloadTime;
         jumpGapReset = jumpGap;
         anim = GetComponent<Animator>();
+        pC = GetComponent<playerController>();
     }
     
     void Update()
@@ -73,6 +74,9 @@ public class shotgun : MonoBehaviour
 
     void FixedUpdate()
     {
+        if(pC.health < 0)
+            return;
+
         if(gunControl.shotGunEquipped)
         {   
             if(!thePlayer.isPc){
@@ -89,8 +93,6 @@ public class shotgun : MonoBehaviour
                         _muzzleFlash.transform.localScale = new Vector3(1, 1, 1);
                         thePlayer.gunRecoil = true;
                         rb.velocity = new Vector2(-gunRecoil.x, rb.velocity.y);
-
-                        // Debug.Log(-gunRecoil.x);
                     } else
                     {
                         _muzzleFlash.transform.localScale = new Vector3(-1, 1, 1);

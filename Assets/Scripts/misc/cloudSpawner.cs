@@ -6,7 +6,7 @@ public class cloudSpawner : MonoBehaviour
 {
     public float timer;
     float resetTimer;
-    public float minPoint, maxPoint;
+    // public float minPoint, maxPoint;
     public GameObject cloud;
     // Start is called before the first frame update
     void Start()
@@ -23,7 +23,7 @@ public class cloudSpawner : MonoBehaviour
         {
             timer = resetTimer;
             GameObject _cloud = (GameObject)Instantiate(cloud, transform.position, transform.rotation);
-            transform.position = new Vector3(transform.position.x, Random.Range(minPoint,maxPoint), transform.position.z);
+            // transform.position = new Vector3(transform.position.x, Random.Range(minPoint,maxPoint), transform.position.z);
         }
     }
 }

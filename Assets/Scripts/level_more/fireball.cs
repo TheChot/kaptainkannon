@@ -18,17 +18,26 @@ public class fireball : MonoBehaviour
     {
         if(other.gameObject.layer == LayerMask.NameToLayer("player"))
         {
-            other.gameObject.GetComponent<playerController>().takeDamage(damageGive);
+            enemyManager.instance.pc.takeDamage(damageGive);
             // gameObject.SetActive(false);
             // impactSound.Play();
-            GameObject _explosion = (GameObject)Instantiate(explosion, transform.position, transform.rotation);
-            Destroy(gameObject);
+            if(explosion != null)
+            {
+                GameObject _explosion = (GameObject)Instantiate(explosion, transform.position, transform.rotation);
+                Destroy(gameObject);
+            }
+            
         }
 
         if(other.gameObject.layer == LayerMask.NameToLayer("ground"))
         {            
             // gameObject.SetActive(false);
-            GameObject _explosion = (GameObject)Instantiate(explosion, transform.position, transform.rotation);
+            if(explosion != null)
+            {
+                GameObject _explosion = (GameObject)Instantiate(explosion, transform.position, transform.rotation);
+            }
+                
+            
             Destroy(gameObject);
         }
     }

@@ -32,7 +32,7 @@ public class boss1Controller : MonoBehaviour
 
     bool canAttack;
 
-    public float jumpForce, highPoint, lowPoint;
+    public float jumpForce, highPoint, lowPoint, sawMinSpeed, sawMaxSpeed;
     bool land, changePos;
     
 
@@ -195,6 +195,10 @@ public class boss1Controller : MonoBehaviour
         attackNo -= 1;      
         GameObject saw = bC.phase2 ? saw2 : saw1;
         GameObject _sawClone = (GameObject)Instantiate(saw, throwPoint.position, throwPoint.rotation);        
+        if(bC.phase2)
+        {
+            _sawClone.GetComponent<bouncingSaw>().sawMove.x = Random.Range(sawMinSpeed, sawMaxSpeed);
+        }
         if(transform.localScale.x < 0)        
         {
             Quaternion rotation = _sawClone.transform.rotation;

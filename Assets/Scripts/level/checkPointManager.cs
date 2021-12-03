@@ -32,6 +32,8 @@ public class checkPointManager : MonoBehaviour
     public int deadCount;
     public bool songSet;
     public int songIndex;
+    public bool bgSet;
+    public int bgIndex;
      
     
 }

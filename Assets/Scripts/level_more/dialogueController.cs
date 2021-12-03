@@ -30,6 +30,7 @@ public class dialogueController : MonoBehaviour
     public GameObject animObj;
     public bool isAutoD;
     public bool isBossDialogue;
+    public bool isEndGame;
     
 
     void Start()

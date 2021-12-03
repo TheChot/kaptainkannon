@@ -10,6 +10,7 @@ public class slammerBoss : MonoBehaviour
     bool disappear;
     public int damageGive;
     public boss2Controller myBoss;
+    public AudioSource slamSound;
     // Start is called before the first frame update
     void Start()
     {
@@ -48,15 +49,15 @@ public class slammerBoss : MonoBehaviour
     {
         if(other.gameObject.layer == LayerMask.NameToLayer("player"))
         {
-            other.gameObject.GetComponent<playerController>().takeDamage(damageGive);
+            enemyManager.instance.pc.takeDamage(damageGive);            
             // gameObject.SetActive(false);
-            
         }
 
         if(other.gameObject.layer == LayerMask.NameToLayer("ground"))
         { 
             disappear = true;
             slam = false;
+            slamSound.Play();
             
         }
     }

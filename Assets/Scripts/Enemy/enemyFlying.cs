@@ -15,11 +15,13 @@ public class enemyFlying : MonoBehaviour
     public bool isStopped;
 
     public bool dontFlipX;
+    Transform target;
 
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        target = GameObject.Find("player").transform;
         
         // if(isF)
         if(moveHorizontal)
@@ -84,6 +86,8 @@ public class enemyFlying : MonoBehaviour
             {
                 rb.velocity = new Vector2(0, 0);
             }
+
+            
             
         } 
         else 
@@ -109,6 +113,14 @@ public class enemyFlying : MonoBehaviour
             } else 
             {
                 rb.velocity = new Vector2(0, 0);
+            }
+
+            if(target.position.x > transform.position.x)
+            {
+                transform.localScale = new Vector3(1,1,1);
+            } else 
+            {
+                transform.localScale = new Vector3(-1,1,1);
             }
         }
 

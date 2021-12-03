@@ -45,6 +45,8 @@ public class boss2Controller : MonoBehaviour
     public float giantGap;
     public float giantStart;
     bool fireGiant = true;
+    public GameObject bossExplosion;
+    GameObject lastSlammer;
     
 
     
@@ -82,12 +84,10 @@ public class boss2Controller : MonoBehaviour
                 {
                     rb.velocity = new Vector2(rb.velocity.x, 0);
                 }
-            } else if (!bC.exposeWeak && transform.position.y < bossYPos)
+            } else if (!bC.exposeWeak && transform.position.y < bossYPos && bC.bossHealth > 0)
             {
                 rb.velocity = new Vector2(rb.velocity.x, riseSpeed);
-                isRising = true;
-
-                
+                isRising = true;                
             }
 
             if(transform.position.y >= bossYPos && isRising)
@@ -125,18 +125,24 @@ public class boss2Controller : MonoBehaviour
 
         if(attackLoop > 0)
         {
+            
             attackGap -= Time.deltaTime;
-
-            if(attackGap <= 0)
+            if(bC.hit > 0)
             {
-                handGap -= Time.deltaTime;
-
-                if(handGap <= 0 && canFire)
+                if(attackGap <= 0)
                 {
-                    anim.SetTrigger("shoot");
-                    canFire = false;
+                    handGap -= Time.deltaTime;
 
+                    if(handGap <= 0 && canFire)
+                    {
+                        anim.SetTrigger("shoot");
+                        canFire = false;
+
+                    }
                 }
+            } else 
+            {
+                attackGap = attackGapReset;
             }
         }
 
@@ -168,12 +174,12 @@ public class boss2Controller : MonoBehaviour
 
             if(fireRest < 0)
             {
+                GameObject _explosionClone = (GameObject)Instantiate(bossExplosion, transform.position, transform.rotation);        
                 startFireRest = false;
                 fireRest = fireRestReset;
                 bossPos = !bossPos;
                 attackLoop -= 1;
                 canFire = true;
-                
             }
         }
 
@@ -181,6 +187,7 @@ public class boss2Controller : MonoBehaviour
         {
             if(!bC.exposeWeak)
             {
+                GameObject _explosionClone = (GameObject)Instantiate(bossExplosion, transform.position, transform.rotation);        
                 attackLoop = attackLoopReset;
                 attackGap = attackGapReset;
                 handGap = handGapReset;
@@ -188,6 +195,8 @@ public class boss2Controller : MonoBehaviour
                 bossPos = !bossPos;
                 isSlamming = false;
                 fireGiant = true;
+                // if(lastSlammer != null)
+                //     Destroy(lastSlammer);
             }
 
         }
@@ -240,6 +249,7 @@ public class boss2Controller : MonoBehaviour
             {
                 GameObject _slamClone = (GameObject)Instantiate(slammer2, slamSpawn.position, slamSpawn.rotation);        
                 _slamClone.GetComponent<slammerBoss>().myBoss = this;
+                lastSlammer = _slamClone;
             }
         }
 
